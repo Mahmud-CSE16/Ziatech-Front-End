@@ -1,0 +1,32 @@
+section.features{
+    .container{
+        border-bottom: 1px solid rgba(187, 187, 187, 0.4);
+    }
+    .feature-card{
+        transition: .3s all ease-in-out;
+        .icon{
+            font-size: 54px;
+            color: #0a8dad;
+            transition: .3s all ease-in-out;
+            margin-top: -10px;
+        }
+        .text{
+            p{
+                margin-bottom: 0;
+                &.title{
+                    color: #000;
+                    font-weight: 500;
+                }
+                &.description{
+                    color: rgb(100, 100, 100);
+                }
+            }
+        }
+
+        &:hover{
+            .icon{
+                color: #064858;
+            }
+        }
+    }
+}
