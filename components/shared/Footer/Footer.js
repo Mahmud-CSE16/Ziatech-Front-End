@@ -38,7 +38,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="container text-center pt-4">
-                    <p className="mb-0 text-white font-light">&copy; All Rights Reserved</p>
+                    <p className="mb-0 text-white font-light font-14">&copy; All Rights Reserved</p>
                 </div>
             </footer>
         </>
