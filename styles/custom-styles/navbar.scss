@@ -1,0 +1,28 @@
+.gray-bottom-border{
+    border-bottom: 1px solid rgba(243, 247, 255, 0.384);
+}
+.header-top{
+    color: #fff;
+    p{
+        font-weight: 300;
+        font-size: 14px;
+    }
+    .icon{
+        font-size: 38px;
+    }
+}
+nav.nav-lg.navbar-dark{
+    .navbar-nav span.nav-item{
+        color: #fff !important;
+        &:hover{
+            color: red;
+        }
+        a:hover{
+            color: rgba(255, 255, 255, 0.5);
+        }
+    }
+    a.nav-link:hover{
+        color: rgba(255, 255, 255, 0.5) !important;
+    }
+
+}
