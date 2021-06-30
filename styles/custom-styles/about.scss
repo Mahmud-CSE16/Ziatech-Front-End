@@ -18,6 +18,9 @@
 }
 
 main.about{
+    p{
+        margin-bottom: 0;
+    }
     .mission{
         img{
             border-radius: 16px;
@@ -47,5 +50,17 @@ main.about{
             transform: translateX(-140px);
             bottom: -50px
         }
+    }
+}
+.testimonial-card{
+    background-color: #fff;
+    box-shadow: 0 0 25px rgba(0, 0, 0, .04);
+    padding: 25px 38px;
+    border-radius:4px;
+    transition: .1s all ease-in-out;
+
+    &:hover{
+        transform: translateY(-3px);
+        box-shadow: 0 0 25px rgba(0, 0, 0, .1);
     }
 }
