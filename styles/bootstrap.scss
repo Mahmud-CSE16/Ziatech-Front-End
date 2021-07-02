@@ -9,18 +9,43 @@ $theme-colors: (
 );
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
-main.shop{
-    @media (min-width: 1420px) {
-        .container{
-            max-width: 1250px;
-        }
-    }
-    @media (min-width: 1900px) {
-        .container{
-            max-width: 1450px;
-        }
+// main.shop{
+//     @media (min-width: 1420px) {
+//         .container{
+//             max-width: 1250px;
+//         }
+//     }
+//     @media (min-width: 1900px) {
+//         .container{
+//             max-width: 1450px;
+//         }
+//     }
+// }
+
+@media (min-width: 768px) {
+    .container{
+        max-width: 750px;
     }
 }
+@media (min-width: 992px) {
+    .container{
+        max-width: 970px;
+    }
+}
+@media (min-width: 1300px) {
+    .container{
+        max-width: 1300px;
+    }
+}
+@media (min-width: 1400px) {
+    .container{
+        max-width: 1400px;
+    }
+}
+
+
+
+
 .btn{
     border-radius:0;
     // padding: .625rem 1.4rem
@@ -33,4 +58,8 @@ main.shop{
 }
 .btn-outline-danger:hover{
     color: #fff;
+}
+
+.bg-light{
+    background-color: #f3f6fc !important;
 }

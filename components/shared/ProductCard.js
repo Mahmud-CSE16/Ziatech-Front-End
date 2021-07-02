@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { useState } from 'react';
 import { FaSearch, FaRegHeart, FaHeart } from "react-icons/fa";
 import ProductQuickView from './ProductQuickView';
+import PopUpContactSeller from './Shop/PopUpContactSeller';
 
 const ProductCard = ({ data, col }) => {
     const [quickView, setQuickView] = useState(false);
@@ -17,7 +18,7 @@ const ProductCard = ({ data, col }) => {
                         <Link href="/shop"><h6 className="mt-3">{data.name}</h6></Link>
                         <h6 className="font-bold text-danger">৳ {data.price? data.price: 0}</h6>
                         <div className="my-4 d-flex justify-content-between">
-                            <button className="btn btn-danger btn-sm">ADD TO CART</button>
+                            <PopUpContactSeller/>
                             <button onClick={()=> setQuickView(true)} className="btn btn-outline-danger btn-sm">Quick view</button>
                         </div>
                         <div className="quick-access text-right">

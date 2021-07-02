@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { FaChevronRight, FaEnvelopeOpenText, FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa"
-import ProductCard from "../components/shared/ProductCard"
+import ProductCard from "../../../components/shared/ProductCard";
 
 
 const ShopPage = () => {
@@ -15,8 +15,9 @@ const ShopPage = () => {
         <>
             <section className="bg-light py-4">
                 <div className="container">
-                    <Link href="/"><a className="text-primary font-bold">Home</a></Link> <span className="text-secondary font-14"> <FaChevronRight /></span> Shop
-                    <h2 className="mt-2 mb- font-bold">Shop</h2>
+                    <Link href="/"><a className="text-primary font-bold">Home</a></Link> 
+                    <span className="text-secondary font-14"> <FaChevronRight /></span> Category <span className="text-secondary font-14"> <FaChevronRight /></span> Packaging Machine
+                    <h2 className="mt-2 mb- font-bold">Packaging Machine</h2>
                 </div>
             </section>
             <main className="shop">
@@ -24,7 +25,7 @@ const ShopPage = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-md-3">
-                                <h5 className="font-bold">Filter by category</h5>
+                                <h5 className="font-bold">Other categories</h5>
                                 <div className="category-container mt-4 pr-0 pr-md-4">
                                     <CategoryCard />
                                     <CategoryCard />
@@ -35,17 +36,12 @@ const ShopPage = () => {
                                 </div>
                             </div>
                             <div className="col-md-9 pl-0 pl-md-4">
-                                <h5 className="font-bold">Choose your product</h5>
+                                <h5 className="font-bold"><span className="text-gray">Category: </span>Package Machine </h5>
                                 <div className="row mt-4">
                                     <ProductCard data={data} />
                                     <ProductCard data={data} />
                                     <ProductCard data={data} />
-                                    <ProductCard data={data} />
-                                    <ProductCard data={data} />
-                                    <ProductCard data={data} />
-                                    <ProductCard data={data} />
-                                    <ProductCard data={data} />
-                                    <ProductCard data={data} />
+                                    
                                 </div>
                             </div>
                         </div>

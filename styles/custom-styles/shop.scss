@@ -41,3 +41,19 @@
         border-top: none;
     }
 }
+
+// category sidebar
+.category-container{
+    .category-item{
+        border: 2px solid #EBEDF0;
+        padding:25px 20px 15px;
+        border-bottom: none;
+
+        &:hover{
+            background-color: #F1F3F6
+        }
+    }
+    .category-item:last-child{
+        border-bottom: 2px solid #EBEDF0;
+    }
+}

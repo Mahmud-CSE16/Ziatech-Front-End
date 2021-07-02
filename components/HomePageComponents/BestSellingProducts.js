@@ -36,14 +36,14 @@ const FeaturedCard = ({img}) => {
         <>
             <figure>
                 <figcaption>
-                    <h2>{data.title} </h2>
+                    <h2 className="">{data.title} </h2>
                     <p>{data.description} </p>
                 </figcaption>
             </figure>
             <style jsx>
                 {`
                 figure{
-                    background-image: linear-gradient(0deg, rgba(11, 40, 49, 0.98), #c1f3ff4d),url(${img});
+                    background-image: linear-gradient(0deg, rgba(11, 40, 49, 0.08), #c1f3ff4d),url(${img});
                 }
                 figure:hover{
                     background-image: linear-gradient(0deg, rgba(11, 40, 49, 1), #0844539a),url(${img});

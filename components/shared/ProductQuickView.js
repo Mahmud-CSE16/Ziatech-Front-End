@@ -1,4 +1,5 @@
 import { Modal, Button } from "react-bootstrap";
+import PopUpContactSeller from "./Shop/PopUpContactSeller";
 
 const ProductQuickView = ({ data, show, onHide }) => {
     return (
@@ -22,8 +23,8 @@ const ProductQuickView = ({ data, show, onHide }) => {
                             <h3 className="mb-4" >{data.name} </h3>
                             <h4 className="text-danger mb-4">৳ {data.price} </h4>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, iure et voluptate excepturi saepe suscipit, est atque neque laborum sunt officiis fugit.</p>
-                            <button className="btn btn-danger btn-lg ">BUY NOW</button>
-
+                            {/* <button className="btn btn-danger btn-lg ">BUY NOW</button> */}
+                            <PopUpContactSeller btn="lg" />
                             <p className="text-gray mt-5">Category: <span className="text-dark">{data.category} </span> </p>
                         </div>
                     </div>
