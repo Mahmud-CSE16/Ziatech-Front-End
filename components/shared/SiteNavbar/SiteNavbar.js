@@ -42,19 +42,16 @@ const SiteNavbar = () => {
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav style={{ color: "#FFFFFF" }} className="mx-auto text-center">
                             <Nav.Item>
-                                <Nav.Link eventKey="122" className="ml-0 mx-md-3"><Link href="/"><span className="nav-link text-white">Home</span></Link></Nav.Link>
+                                <Nav.Link eventKey="1" className="ml-0 mx-md-3"><Link href="/"><span className="nav-link text-white">Home</span></Link></Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="123" className="ml-0 mx-md-3"><Link href="/about"><span className="nav-link text-white">About</span></Link></Nav.Link>
+                                <Nav.Link eventKey="3" className="ml-0 mx-md-3"><Link href="/shop"><span className="nav-link text-white">Shop</span></Link></Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="123" className="ml-0 mx-md-3"><Link href="/shop"><span className="nav-link text-white">Shop</span></Link></Nav.Link>
+                                <Nav.Link eventKey="2" className="ml-0 mx-md-3"><Link href="/about"><span className="nav-link text-white">About</span></Link></Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="123" className="ml-0 mx-md-3"><Link href="/blog"><span className="nav-link text-white">Blog</span></Link></Nav.Link>
-                            </Nav.Item>
-                            <Nav.Item>
-                                <Nav.Link eventKey="123" className="ml-0 mx-md-3"><Link href="/contact"><span className="nav-link text-white">Contact</span></Link></Nav.Link>
+                                <Nav.Link eventKey="5" className="ml-0 mx-md-3"><Link href="/contact"><span className="nav-link text-white">Contact</span></Link></Nav.Link>
                             </Nav.Item>
                         </Nav>
                     </Navbar.Collapse>

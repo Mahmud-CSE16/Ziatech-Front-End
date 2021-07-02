@@ -11,7 +11,8 @@ function MyApp({ Component, pageProps }) {
       <NextNprogress
         color="#f06e18"
       />
-      <SiteHeader />
+      {/* <SiteHeader /> */}
+      <SiteNavbar/>
       <Component {...pageProps} />
       <Footer/>
     </>
