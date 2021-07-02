@@ -4,6 +4,13 @@ import ProductCard from "../components/shared/ProductCard"
 
 
 const shop = () => {
+    const data = {
+        id: 0,
+        name: `Orange drink powder packaging machine`,
+        price: `300,000`,
+        category: `Packaging Machine`,
+        img: `/img/products/04.jpeg`
+    }
     return (
         <>
             <main className="shop">
@@ -18,17 +25,16 @@ const shop = () => {
                         <div className="row">
                             <div className="col-md-3">
                                 <h5 className="font-bold">Filter by category</h5>
-                                
                             </div>
                             <div className="col-md-9">
-                                <h5 className="font-bold">Select the product</h5>
+                                <h5 className="font-bold">Choose your product</h5>
                                 <div className="row mt-4">
-                                    <ProductCard/>
-                                    <ProductCard/>
-                                    <ProductCard/>
-                                    <ProductCard/>
-                                    <ProductCard/>
-                                    <ProductCard/>
+                                    <ProductCard data={data} />
+                                    <ProductCard data={data} />
+                                    <ProductCard data={data} />
+                                    <ProductCard data={data} />
+                                    <ProductCard data={data} />
+                                    <ProductCard data={data} />
                                 </div>
                             </div>
                         </div>

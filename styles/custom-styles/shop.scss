@@ -28,3 +28,16 @@
         }
     }
 }
+
+.modal-w75{
+    width: 75%;
+    max-width: none!important;
+}
+.product-view{
+    .modal-header{
+        border-bottom: none;
+    }
+    .modal-footer{
+        border-top: none;
+    }
+}
