@@ -1,0 +1,28 @@
+.product-card{
+    border-radius: 5px;
+    transition: all .3s ease-in-out;
+    box-shadow: 0 0 25px rgba(0,0,0, .1);
+    cursor: pointer;
+    position: relative;
+
+    img{
+        transition: all .3s ease-in-out;
+
+    }
+    
+    a{
+        color: #a8a8a8
+    }
+    .quick-access{
+        position: absolute;
+        top: 10px;
+        right:10px;
+    }
+
+
+    &:hover{
+        img{
+            transform:scale(1.1)
+        }
+    }
+}

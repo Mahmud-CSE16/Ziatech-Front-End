@@ -8,3 +8,25 @@ $theme-colors: (
     "info": #172a45,
 );
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+main.shop{
+    @media (min-width: 1420px) {
+        .container{
+            max-width: 1250px;
+        }
+    }
+    @media (min-width: 1900px) {
+        .container{
+            max-width: 1450px;
+        }
+    }
+}
+.btn{
+    border-radius:0;
+}
+.btn-danger{
+    color: #fff;
+}
+.btn-outline-danger:hover{
+    color: #fff;
+}
