@@ -7,13 +7,13 @@ const BestSellingProducts = () => {
                 <div className="container mt-4">
                     <div className="row featured-card">
                         <div className="col-md-4">
-                            <FeaturedCard/>
+                            <FeaturedCard img="/img/products/01.jpeg" />
                         </div>
                         <div className="col-md-4">
-                            <FeaturedCard />
+                            <FeaturedCard img="/img/products/02.jpeg" />
                         </div>
                         <div className="col-md-4">
-                            <FeaturedCard />
+                            <FeaturedCard img="/img/products/04.jpeg" />
                         </div>
                         
                     </div>
@@ -25,7 +25,7 @@ const BestSellingProducts = () => {
 
 export default BestSellingProducts;
 
-const FeaturedCard = () => {
+const FeaturedCard = ({img}) => {
     const data = {
         title: `Product name`,
         description: `Lorem ipsum dolor sit amet consectetur, adipisicing elit.`,
@@ -43,10 +43,10 @@ const FeaturedCard = () => {
             <style jsx>
                 {`
                 figure{
-                    background-image: linear-gradient(0deg, rgba(11, 40, 49, 0.98), #c1f3ff4d),url(${data.img});
+                    background-image: linear-gradient(0deg, rgba(11, 40, 49, 0.98), #c1f3ff4d),url(${img});
                 }
                 figure:hover{
-                    background-image: linear-gradient(0deg, rgba(11, 40, 49, 1), #0844539a),url(${data.img});
+                    background-image: linear-gradient(0deg, rgba(11, 40, 49, 1), #0844539a),url(${img});
                 }
                 `}
             </style>
