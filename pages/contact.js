@@ -57,8 +57,8 @@ const contact = () => {
                                         <FaEnvelopeOpenText />
                                     </div>
                                     <h3>Email Address</h3>
-                                    <a href="mailto:contact@swajan.io" target="_blank" rel="noopener noreferrer">contact@swajan.io</a>
-                                    <a href="mailto:mahmud@prottoy.com.bd" target="_blank" rel="noopener noreferrer">mahmud@prottoy.com.bd</a>
+                                    <a href="mailto:ziatechbd@gmail.com" target="_blank" rel="noopener noreferrer">ziatechbd@gmail.com</a>
+                                    {/* <a href="mailto:mahmud@prottoy.com.bd" target="_blank" rel="noopener noreferrer">mahmud@prottoy.com.bd</a> */}
                                 </div>
                                 <div className="icon-box mb-5">
                                     <div className="icon">
@@ -72,8 +72,8 @@ const contact = () => {
                                         <FaPhoneAlt />
                                     </div>
                                     <h3>Phone Number</h3>
-                                    <a href="tel:+01753727388" target="_blank" rel="noopener noreferrer">Main office: 01753727388</a>
-                                    <a href="tel:+01753727388" target="_blank" rel="noopener noreferrer">Support: 01753727388</a>
+                                    <a href="tel:+01912152784" target="_blank" rel="noopener noreferrer">Main office: 01912152784</a>
+                                    <a href="tel:+01768963858" target="_blank" rel="noopener noreferrer">Support: 01768963858</a>
                                 </div>
                             </div>
                         </div>

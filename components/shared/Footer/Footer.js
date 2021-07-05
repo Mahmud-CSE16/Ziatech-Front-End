@@ -11,8 +11,8 @@ const Footer = () => {
                         <div className="col-md-3 part-1 pr-0 pr-md-4">
                             <h5 className="text-white font-weight-bold mb-4">Contact info.</h5>
                             <p> <span className="d-inline-block"><FaMapMarkerAlt /> </span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas vero sunt animi nisi officia consequuntur. </p>
-                            <p> <span className="d-inline-block"><FaEnvelope /> </span>contact@swajan</p>
-                            <p> <span className="d-inline-block"><FaPhoneAlt /> </span>+880 1753 5506688</p>
+                            <p> <span className="d-inline-block"><FaEnvelope /> </span>ziatechbd@gmail.com</p>
+                            <p> <span className="d-inline-block"><FaPhoneAlt /> </span>+8801912152784</p>
                             {/* <p> <span className="d-inline-block"><FaCalendar /> </span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum quae maxime provident!</p> */}
                         </div>
                         <div className="col-md-2 part-2">
@@ -22,7 +22,7 @@ const Footer = () => {
                             </ul>
                         </div>
                         <div className="col-md-3 part-2">
-                            <h5 className="text-white font-weight-bold mb-4">Account & Shipping <br /> Info</h5>
+                            <h5 className="text-white font-weight-bold mb-4">Quick Links<br /> Info</h5>
                             <ul className="footer-links">
                                 {linksPartTwo.map(item => <FooterLinkItem data={item} key={item.id} />)}
                             </ul>

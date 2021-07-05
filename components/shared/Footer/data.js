@@ -1,28 +1,28 @@
 export const linksPartOne =[
     {
         id: 0,
-        text: `Computers`,
-        link: `computers`
+        text: `Packaging`,
+        link: `packaging`
     },
     {
         id: 1,
-        text: `Electronics`,
-        link: `electronics`
+        text: `Food & Beverage`,
+        link: `food-beverage`
     },
     {
         id: 3,
-        text: `Game & Toy`,
-        link: `game-toy`
+        text: `Hardware`,
+        link: `hardware`
     },
     {
         id: 4,
-        text: `Televisions`,
-        link: `televisions`
+        text: `Medical`,
+        link: `medical`
     },
     {
         id: 5,
-        text: `Fashion & Sports`,
-        link: `fashion-sports`
+        text: `Leather goods`,
+        link: `leather-goods`
     },
     // {
     //     id: 6,
@@ -65,18 +65,18 @@ export const linksPartOne =[
 export const linksPartTwo =[
     {
         id: 0,
-        text: `Your Account`,
-        link: `your-account`
+        text: `About`,
+        link: `about`
     },
     {
         id: 1,
-        text: `Shipping rates & Policies`,
-        link: `shipping-rates-policies`
+        text: `Contact`,
+        link: `contact`
     },
     {
         id: 2,
-        text: `Refunds & Replacements`,
-        link: `refunds-replacements`
+        text: `Shop`,
+        link: `shop`
     },
     {
         id: 3,

@@ -2,7 +2,6 @@
     border-bottom: 1px solid rgba(243, 247, 255, 0.384);
 }
 .header-top{
-    color: #fff;
     p{
         font-weight: 300;
         font-size: 14px;
@@ -25,4 +24,11 @@ nav.nav-lg.navbar-dark{
         color: rgba(255, 255, 255, 0.5) !important;
     }
 
+
+}
+.navbar-brand img{
+    height:60px;
+}
+.mobile-nav nav{
+    box-shadow: 0 0  25px rgba(0, 0, 0, 0.2);
 }
