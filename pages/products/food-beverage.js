@@ -1,7 +1,12 @@
+import SEOLayout from "../../components/shared/SEOLayout";
 
 const PackagingPrinting = () => {
+    const title= `Food & Beverage Machine`;
+    const img = "/products/02.jpeg"
     return (
         <>
+                <SEOLayout title={title+ " | ZiaTech BD"} />
+
             <main>
                 <section className="page-hero">
                     <div className="container text-center text-white">
