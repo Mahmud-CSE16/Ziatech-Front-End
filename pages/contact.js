@@ -1,9 +1,11 @@
 import Link from "next/link"
 import { FaChevronRight, FaEnvelopeOpenText, FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa"
+import SEOLayout from "../components/shared/SEOLayout";
 
 const contact = () => {
     return (
         <>
+        <SEOLayout title="Contact | ZiaTechBD"/>
             <main className="contact">
                 {/* breadcrumb */}
                 <section className="bg-light py-4">

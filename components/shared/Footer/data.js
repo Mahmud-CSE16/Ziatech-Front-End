@@ -2,27 +2,27 @@ export const linksPartOne =[
     {
         id: 0,
         text: `Packaging`,
-        link: `packaging`
+        link: `products/packaging-printing`
     },
     {
         id: 1,
         text: `Food & Beverage`,
-        link: `food-beverage`
+        link: `products/food-beverage`
     },
     {
         id: 3,
         text: `Hardware`,
-        link: `hardware`
+        link: `products/hardware-others`
     },
     {
         id: 4,
         text: `Medical`,
-        link: `medical`
+        link: `products/medical-health`
     },
     {
         id: 5,
         text: `Leather goods`,
-        link: `leather-goods`
+        link: `products/leather-goods`
     },
     // {
     //     id: 6,
