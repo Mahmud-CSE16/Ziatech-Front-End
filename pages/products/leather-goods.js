@@ -1,7 +1,7 @@
 
 const PackagingPrinting = () => {
-    const title= ` Machine`;
-    const img = "/products/03.jpeg"
+    const title= `Leather & Leather Goods Machine`;
+    const img = "/products/10.jpeg"
     return (
         <>
             <main>

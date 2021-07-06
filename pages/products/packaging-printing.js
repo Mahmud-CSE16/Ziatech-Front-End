@@ -26,6 +26,7 @@ const PackagingPrinting = () => {
                                         <a href="tel:+8801912152784" className="btn btn-lg btn-primary ">CALL NOW</a>
                                     </div>
                                 </div>
+                                {/* image */}
                                 <img src="/products/01.jpeg" alt="" className="img-fluid" />
                             </div>
                         </div>
