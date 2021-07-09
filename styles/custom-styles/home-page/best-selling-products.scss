@@ -1,6 +1,6 @@
 .featured-card {
     figcaption{
-        background-color: rgba(255, 255, 255, 0.5);
+        background-color: rgba(255, 255, 255, 0.8);
         transform: translateY(86px);
     }
     figure {
@@ -21,8 +21,9 @@
 
         h2 {
             transition: 0.2s;
-            transform: translateY(25px);
-            color: #033642
+            transform: translateY(24px);
+            color: #033642;
+            font-size: 22px;
         }
         p {
             transition: 0.2s;
@@ -79,7 +80,5 @@
         }
     }
 
-    &:hover{
 
-    }
 }
