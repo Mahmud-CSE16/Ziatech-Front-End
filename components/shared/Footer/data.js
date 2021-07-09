@@ -80,13 +80,8 @@ export const linksPartTwo =[
     },
     {
         id: 3,
-        text: `Delivery Info`,
-        link: `delivery-info`
-    },
-    {
-        id: 4,
-        text: `Order Tracking`,
-        link: `order-tracking`
+        text: `Categories`,
+        link: ``
     },
 ]
 

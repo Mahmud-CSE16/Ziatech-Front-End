@@ -1,0 +1,34 @@
+.social-icons {
+    // font-size: 22px;
+    border-radius: 100px;
+    padding: 8px;
+    background-color: #033642;
+    display: inline-block;
+    color: #fff;
+    border: 2px solid #fff;
+    transition: all 0.3s ease-in-out;
+    svg {
+        height: 24px;
+        width: 25px;
+    }
+}
+
+.social-icon-container{
+    margin-right: 12px !important;
+    display: inline-block;
+}
+.social-icon-container:hover .social-icons {
+    color: #fc8540;
+    background-color: #033642;
+    cursor: pointer;
+    text-decoration: none;
+    border: 2px solid #fc8540;
+
+}
+a.social-icon-container:hover {
+    text-decoration: none;
+    color: #fc8540;
+
+    // #033642
+}
+

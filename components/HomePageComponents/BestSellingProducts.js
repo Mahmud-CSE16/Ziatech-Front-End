@@ -4,9 +4,9 @@ import Link from "next/link"
 const BestSellingProducts = () => {
     return (
         <>
-            <section className="py-5">
+            <section className="py-5 bg-light">
                 <h2 className="text-center h3 font-bold">Top Product Categories</h2>
-                <div className="container featured-card mt-4">
+                <div className="container featured-card mt-5">
                     <div className="row  d-flex justify-content-around">
                         {bestSellingData.map(item => <FeaturedCard data={item} key={item.id} />)}
                     </div>
@@ -26,7 +26,7 @@ const FeaturedCard = ({ data }) => {
     // }
     return (
         <>
-            <div className="col-md-3">
+            <div className="col-md-3 mb-3">
                 <Link href={`/products${data.link}`}>
                     <figure>
                         <figcaption>

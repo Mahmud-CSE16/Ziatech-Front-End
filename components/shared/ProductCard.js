@@ -14,9 +14,9 @@ const ProductCard = ({ data, col }) => {
                         <div className="p-4">
                             <img src={data.img} alt="" className="img-fluid" />
                         </div>
-                        <Link href="/contact">{data.category}</Link>
-                        <Link href="/shop"><h6 className="mt-3">{data.name}</h6></Link>
-                        <h6 className="font-bold text-danger">৳ {data.price? data.price: 0}</h6>
+                        {/* <Link href="/contact">{data.category}</Link> */}
+                        <h6 className="mt-3">{data.category}</h6>
+                        {/* <h6 className="font-bold text-danger">৳ {data.price? data.price: 0}</h6> */}
                         <div className="my-4 d-flex justify-content-between">
                             <PopUpContactSeller/>
                             <button onClick={()=> setQuickView(true)} className="btn btn-outline-danger btn-sm">Quick view</button>
