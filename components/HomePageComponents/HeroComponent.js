@@ -5,14 +5,44 @@ import { GiGears } from "react-icons/gi"
 import { FiMessageCircle } from "react-icons/fi"
 
 const HeroComponent = () => {
+    const bg1 = `https://images.pexels.com/photos/2760289/pexels-photo-2760289.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500`;
+    const bg2 = `https://images.pexels.com/photos/287237/pexels-photo-287237.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500`;
+    const bg3 = `https://images.pexels.com/photos/256297/pexels-photo-256297.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500`;
+
     return (
         <>
-            <section className="hero-section d-flex align-items-center justify-content-center">
+            <section className="hero-section">
 
-<div className="text-right">
-<h1 className="text-white display-2">ZiaTech BD</h1>
-<p className="font-22"><i>a world famous brand of machinery</i></p>
-</div>
+                <Carousel slide={false} pause="hover" interval={2500} controls={false} indicators={false} >
+                    <Carousel.Item>
+                        <div style={{ background: `linear-gradient(0deg, rgba(7, 16, 19, 0.8), rgba(0, 0, 0, .6)),url(${bg1})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }} className="d-flex align-items-center justify-content-center carousel-img">
+                            <div className="text-right">
+                                <h1 className="display-2 font-weight-bold">ZiaTech BD</h1>
+                                <p className="font-22">a world famous brand of machinery &nbsp;</p>
+                            </div>
+                        </div>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <div style={{ background: `linear-gradient(0deg, rgba(7, 16, 19, 0.8), rgba(0, 0, 0, .6)),url(${bg2})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }} className="d-flex align-items-center justify-content-center carousel-img">
+                            <div className="text-right">
+                                <h1 className="display-2 font-weight-bold">ZiaTech BD</h1>
+                                <p className="font-22">a world famous brand of machinery &nbsp;</p>
+                            </div>
+                        </div>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <div style={{ background: `linear-gradient(0deg, rgba(7, 16, 19, 0.8), rgba(0, 0, 0, .6)),url(${bg3})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }} className="d-flex align-items-center justify-content-center carousel-img">
+                            <div className="text-right">
+                                <h1 className="display-2 font-weight-bold">ZiaTech BD</h1>
+                                <p className="font-22">a world famous brand of machinery &nbsp;</p>
+                            </div>
+                        </div>
+                    </Carousel.Item>
+                </Carousel>
+                {/* <div className="text-right">
+                    <h1 className="text-white display-2">ZiaTech BD</h1>
+                    <p className="font-22"><i>a world famous brand of machinery</i></p>
+                </div> */}
                 {/* <div className="container">
                     <div className="row d-flex align-items-center">
                         <div className="col-md-8 py-3">
