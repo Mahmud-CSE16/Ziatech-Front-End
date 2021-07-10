@@ -1,6 +1,7 @@
 import Carousel from "react-bootstrap/Carousel";
 import Image from "next/image"
-import { FaShuttleVan, FaWallet } from "react-icons/fa"
+import { FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa"
+import { GiGears } from "react-icons/gi"
 import { FiMessageCircle } from "react-icons/fi"
 
 const HeroComponent = () => {
@@ -10,7 +11,7 @@ const HeroComponent = () => {
                 <div className="container">
                     <div className="row d-flex align-items-center">
                         <div className="col-md-8 py-3">
-                            <Carousel slide={true} pause="hover" interval={6000} controls={false} indicators={true} >
+                            <Carousel slide={true} pause="hover" interval={1500} controls={false} indicators={true} >
                                 <Carousel.Item>
                                     <div style={{ backgroundImage: `url("/img/products/01.jpeg")` }} className="carousel-img"></div>
                                 </Carousel.Item>
@@ -33,43 +34,49 @@ const HeroComponent = () => {
                 <div className="container py-5">
                     <div className="row">
                         <div className="col-md-4">
-                            <div className="feature-card card p-3">
-                                <div className="d-flex align-items-center">
-                                    <div className="icon">
-                                        <FaShuttleVan />
-                                    </div>
-                                    <div className="text pl-4">
-                                        <p className="title">Payment & Delivery</p>
-                                        <p className="description">Shipping for order over ৳ 1000</p>
+                            <a href="#categories">
+                                <div className="feature-card card p-3">
+                                    <div className="d-flex align-items-center">
+                                        <div className="icon">
+                                            <GiGears />
+                                        </div>
+                                        <div className="text pl-4">
+                                            <p className="title">All Machineries</p>
+                                            <p className="description">Imported & Manufactured</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                         <div className="col-md-4">
-                            <div className="feature-card card p-3">
-                                <div className="d-flex align-items-center">
-                                    <div className="icon">
-                                        <FaWallet />
-                                    </div>
-                                    <div className="text pl-4">
-                                        <p className="title">Payment & Delivery</p>
-                                        <p className="description">Shipping for order over ৳ 1000</p>
+                            <a href="#footer">
+                                <div className="feature-card card p-3">
+                                    <div className="d-flex align-items-center">
+                                        <div className="icon">
+                                            <FaMapMarkerAlt />
+                                        </div>
+                                        <div className="text pl-4">
+                                            <p className="title">Address</p>
+                                            <p className="description">Janapath Mur, Saidabad, Dhaka</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                         <div className="col-md-4">
-                            <div className="feature-card card p-3">
-                                <div className="d-flex align-items-center">
-                                    <div className="icon">
-                                        <FiMessageCircle />
-                                    </div>
-                                    <div className="text pl-4">
-                                        <p className="title">Payment & Delivery</p>
-                                        <p className="description">Shipping for order over ৳ 1000</p>
+                            <a href="tel:+8801912152784" target="_blank" rel="noopener noreferrer">
+                                <div className="feature-card card p-3">
+                                    <div className="d-flex align-items-center">
+                                        <div className="icon">
+                                            <FaPhoneAlt />
+                                        </div>
+                                        <div className="text pl-4">
+                                            <p className="title">Contact Us</p>
+                                            <p className="description">+880 1912-152784</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>

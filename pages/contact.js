@@ -1,11 +1,26 @@
 import Link from "next/link"
+import { useForm } from "react-hook-form";
 import { FaChevronRight, FaEnvelopeOpenText, FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa"
 import SEOLayout from "../components/shared/SEOLayout";
 
 const contact = () => {
+    // if (typeof window !== "undefined") {
+    //     window.open('mailto:email@address.com?subject=Hello world&body=Line one%0DLine two', '_blank');
+    // }
+
+    const { register, handleSubmit, watch, formState: { errors } } = useForm();
+    const onFormSubmit =(data, e)=>{
+        console.log(data);
+const msgBody = `<b>Phone: ${data.phone}</b> <br/> <br/><p>${data.message}</p>`
+        // if(typeof window !== "undefined"){
+            window.open(`mailto:${data.email}?subject=${data.subject}&body=${msgBody}`, '_blank')
+        
+    }
+
     return (
         <>
-        <SEOLayout title="Contact | ZiaTechBD"/>
+        
+            <SEOLayout title="Contact | ZiaTechBD" />
             <main className="contact">
                 {/* breadcrumb */}
                 <section className="bg-light py-4">
@@ -30,25 +45,26 @@ const contact = () => {
                         <div className="row content">
                             <div className="col-md-8 p-5 bg-white">
                                 <h2 className="h1 font-bold mb-5">Send us a Message</h2>
-                                <form className="contact-form">
+                                <form onSubmit={handleSubmit(onFormSubmit)} className="contact-form">
                                     <div className="row">
                                         <InputField label="Full Name" htmlFor="name">
-                                            <input type="text" placeholder="Your Full Name..." className="form-control" />
+                                            <input {...register("name", {required: true})} type="text" placeholder="Your Full Name..." className="form-control" />
                                         </InputField>
                                         <InputField label="Email Address" htmlFor="email">
-                                            <input type="email" placeholder="Email Address..." className="form-control" />
+                                            <input {...register("email", {required: true})} type="email" placeholder="Email Address..." className="form-control" />
                                         </InputField>
                                         <InputField label="Phone Number" htmlFor="email">
-                                            <input type="tel" placeholder="Your phone number..." name="phone" className="form-control" />
+                                            <input {...register("phone", {required: true})} type="tel" placeholder="Your phone number..." name="phone" className="form-control" />
                                         </InputField>
                                         <InputField label="Subject" htmlFor="subject" >
-                                            <input type="text" placeholder="The message subject..." name="subject" className="form-control" />
+                                            <input {...register("subject", {required: true})} type="text" placeholder="The message subject..." name="subject" className="form-control" />
                                         </InputField>
                                         <InputField col="12" label="Message" htmlFor="message">
-                                            <textarea name="message" placeholder="Type here..." className="p-4 form-control" rows="5"></textarea>
+                                            <textarea {...register("message", {required: true})} name="message" placeholder="Type here..." className="p-4 form-control" rows="5"></textarea>
                                         </InputField>
                                         <div className="col-12 mt-4">
                                             <button type="submit" className="btn btn-danger">SEND MESSAGE</button>
+                                            {/* <a className="btn btn-danger" target="_blank" rel="noopener noreferrer" href="mailto:email@address.com?subject=Hello world&body=Line one%0DLine two">Email me</a> */}
                                         </div>
                                     </div>
                                 </form>

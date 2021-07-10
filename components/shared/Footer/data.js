@@ -73,11 +73,11 @@ export const linksPartTwo =[
         text: `Contact`,
         link: `contact`
     },
-    {
-        id: 2,
-        text: `Shop`,
-        link: `shop`
-    },
+    // {
+    //     id: 2,
+    //     text: `Shop`,
+    //     link: `shop`
+    // },
     {
         id: 3,
         text: `Categories`,

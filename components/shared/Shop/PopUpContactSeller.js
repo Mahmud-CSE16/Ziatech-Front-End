@@ -21,8 +21,8 @@ const PopUpContactSeller = ({btn}) => {
                     <p className="mb-2">To buy this product, please contact with the seller directly.</p>
                     <p className="mb-4">You may call the number below: </p>
                     <div className="text-center mb-4">
-                        <h5 className="text-danger mb-3">01700-556699</h5>
-                        <a href="tel:+01700-556699"className="btn btn-danger btn-lg text-white">Call Now</a>
+                        <h5 className="text-danger mb-3">+8801912 152784</h5>
+                        <a href="tel:+8801912152784"className="btn btn-danger btn-lg text-white">Call Now</a>
                     </div>
                 </Modal.Body>
                 <Modal.Footer>

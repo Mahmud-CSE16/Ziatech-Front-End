@@ -4,7 +4,7 @@ import Link from "next/link"
 const BestSellingProducts = () => {
     return (
         <>
-            <section className="py-5 bg-light">
+            <section className="py-5 bg-light" id="categories">
                 <h2 className="text-center h3 font-bold">Top Product Categories</h2>
                 <div className="container featured-card mt-5">
                     <div className="row  d-flex justify-content-around">

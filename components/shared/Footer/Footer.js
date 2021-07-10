@@ -5,7 +5,7 @@ import { linksPartOne, linksPartThree, linksPartTwo } from "./data";
 const Footer = () => {
     return (
         <>
-            <footer className="bg-primary pt-5 pb-4 " >
+            <footer className="bg-primary pt-5 pb-4" id="footer"  >
                 <div className="container mt-4 gray-bottom-border pb-5">
                     <div className="row">
                         <div className="col-md-4 part-1  mb-4 mb-md-0">
@@ -36,7 +36,7 @@ const Footer = () => {
                         </div>
                         <div className="col-md-3 ">
                             <h5 className="text-white font-weight-bold mb-4">Visit Our Showroom</h5>
-                            <p className="text-white" >Corporate Office & Show Room-1: HR Plaza, 43/2/1, Janapath Mur, SAidabad, Dhaka-1100.</p>
+                            <p className="text-white" >Corporate Office & Show Room-1: HR Plaza, 43/2/1, Janapath Mur, Saidabad, Dhaka-1100.</p>
                             <div className="mt-4">
                                 <a href="http://fb.com" target="_blank" rel="noopener noreferrer">
                                     <div className="social-icon-container" >
