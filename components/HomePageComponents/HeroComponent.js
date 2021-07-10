@@ -7,8 +7,13 @@ import { FiMessageCircle } from "react-icons/fi"
 const HeroComponent = () => {
     return (
         <>
-            <section className="hero-section">
-                <div className="container">
+            <section className="hero-section d-flex align-items-center justify-content-center">
+
+<div className="text-right">
+<h1 className="text-white display-2">ZiaTech BD</h1>
+<p className="font-22"><i>a world famous brand of machinery</i></p>
+</div>
+                {/* <div className="container">
                     <div className="row d-flex align-items-center">
                         <div className="col-md-8 py-3">
                             <Carousel slide={true} pause="hover" interval={1500} controls={false} indicators={true} >
@@ -28,7 +33,7 @@ const HeroComponent = () => {
                             <div style={{ backgroundImage: `url("/img/products/04.jpeg")` }} className="carousel-img"></div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </section>
             <section className="features">
                 <div className="container py-5">
