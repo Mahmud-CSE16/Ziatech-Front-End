@@ -16,7 +16,7 @@ const HeroComponent = () => {
                 <Carousel slide={false} pause="hover" interval={2500} controls={false} indicators={false} >
                     <Carousel.Item>
                         <div style={{ background: `linear-gradient(0deg, rgba(7, 16, 19, 0.8), rgba(0, 0, 0, .6)),url(${bg1})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }} className="d-flex align-items-center justify-content-center carousel-img">
-                            <div className="text-right">
+                            <div className="text-center text-md-right">
                                 <h1 className="display-2 font-weight-bold">ZiaTech BD</h1>
                                 <p className="font-22">a world famous brand of machinery &nbsp;</p>
                             </div>
@@ -24,7 +24,7 @@ const HeroComponent = () => {
                     </Carousel.Item>
                     <Carousel.Item>
                         <div style={{ background: `linear-gradient(0deg, rgba(7, 16, 19, 0.8), rgba(0, 0, 0, .6)),url(${bg2})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }} className="d-flex align-items-center justify-content-center carousel-img">
-                            <div className="text-right">
+                            <div className="text-center text-md-right">
                                 <h1 className="display-2 font-weight-bold">ZiaTech BD</h1>
                                 <p className="font-22">a world famous brand of machinery &nbsp;</p>
                             </div>
@@ -32,7 +32,7 @@ const HeroComponent = () => {
                     </Carousel.Item>
                     <Carousel.Item>
                         <div style={{ background: `linear-gradient(0deg, rgba(7, 16, 19, 0.8), rgba(0, 0, 0, .6)),url(${bg3})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }} className="d-flex align-items-center justify-content-center carousel-img">
-                            <div className="text-right">
+                            <div className="text-center text-md-right">
                                 <h1 className="display-2 font-weight-bold">ZiaTech BD</h1>
                                 <p className="font-22">a world famous brand of machinery &nbsp;</p>
                             </div>
@@ -68,7 +68,7 @@ const HeroComponent = () => {
             <section className="features">
                 <div className="container py-5">
                     <div className="row">
-                        <div className="col-md-4">
+                        <div className="col-md-4 mb-3 mb-md-0">
                             <a href="#categories">
                                 <div className="feature-card card p-3">
                                     <div className="d-flex align-items-center">
@@ -83,7 +83,7 @@ const HeroComponent = () => {
                                 </div>
                             </a>
                         </div>
-                        <div className="col-md-4">
+                        <div className="col-md-4 mb-3 mb-md-0">
                             <a href="#footer">
                                 <div className="feature-card card p-3">
                                     <div className="d-flex align-items-center">
@@ -98,7 +98,7 @@ const HeroComponent = () => {
                                 </div>
                             </a>
                         </div>
-                        <div className="col-md-4">
+                        <div className="col-md-4 mb-3 mb-md-0">
                             <a href="tel:+8801912152784" target="_blank" rel="noopener noreferrer">
                                 <div className="feature-card card p-3">
                                     <div className="d-flex align-items-center">
