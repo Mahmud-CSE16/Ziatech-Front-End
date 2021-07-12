@@ -3,7 +3,7 @@ import SEOLayout from "../components/shared/SEOLayout";
 const about = () => {
     return (
         <>
-        <SEOLayout title="About | ZiaTech BD"/>
+        <SEOLayout title="About | ziatech"/>
             <main className="about">
 
                 <section className="page-hero">

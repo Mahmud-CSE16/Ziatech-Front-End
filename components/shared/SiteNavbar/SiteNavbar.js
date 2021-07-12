@@ -95,8 +95,8 @@ const SiteNavbar = () => {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav style={{ color: "#FFFFFF" }} className="ml-auto text-center">
-                            <Nav.Item>
-                                <Nav.Link eventKey="1" className="ml-0"><Link href="/products/packaging-printing"><a className="nav-link text-dark">Packaging </a></Link></Nav.Link>
+                        <Nav.Item>
+                                <Nav.Link eventKey="1" className="ml-0"><Link href="/products/packaging-printing"><a className="nav-link text-dark">Packaging&nbsp;&&nbsp;Printing </a></Link></Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
                                 <Nav.Link eventKey="3" className="ml-0"><Link href="/products/food-beverage"><a className="nav-link text-dark">Food&nbsp;&&nbsp;Beverage</a></Link></Nav.Link>
@@ -108,22 +108,22 @@ const SiteNavbar = () => {
                                 <Nav.Link eventKey="5" className="ml-0"><Link href="/products/plastic-rubber"><a className="nav-link text-dark">Plastic&nbsp;&&nbsp;Rubber</a></Link></Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="5" className="ml-0"><Link href="/products/hardware-others"><a className="nav-link text-dark">Hardware </a></Link></Nav.Link>
+                                <Nav.Link eventKey="5" className="ml-0"><Link href="/products/hardware-others"><a className="nav-link text-dark">Hardware&nbsp;&&nbsp;Others </a></Link></Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="5" className="ml-0"><Link href="/products/construction-agriculture"><a className="nav-link text-dark">Construction&nbsp;&&nbsp;Agriculture</a></Link></Nav.Link>
+                                <Nav.Link eventKey="1" className="ml-0"><Link href="/products/packaging-printing"><a className="nav-link text-dark">Packaging&nbsp;&&nbsp;Printing </a></Link></Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="5" className="ml-0"><Link href="/products/pharmaceutical-herbal"><a className="nav-link text-dark">Pharmaceutical </a></Link></Nav.Link>
+                                <Nav.Link eventKey="3" className="ml-0"><Link href="/products/food-beverage"><a className="nav-link text-dark">Food&nbsp;&&nbsp;Beverage</a></Link></Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="5" className="ml-0"><Link href="/products/medical-health"><a className="nav-link text-dark">Medical </a></Link></Nav.Link>
+                                <Nav.Link eventKey="2" className="ml-0"><Link href="/products/chemical-cosmetics"><a className="nav-link text-dark">Chemical&nbsp;&&nbsp;Cosmetics</a></Link></Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="5" className="ml-0"><Link href="/products/garments-textiles"><a className="nav-link text-dark">Garments </a></Link></Nav.Link>
+                                <Nav.Link eventKey="5" className="ml-0"><Link href="/products/plastic-rubber"><a className="nav-link text-dark">Plastic&nbsp;&&nbsp;Rubber</a></Link></Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="5" className="ml-0"><Link href="/products/leather-goods"><a className="nav-link text-dark">Leather </a></Link></Nav.Link>
+                                <Nav.Link eventKey="5" className="ml-0"><Link href="/products/hardware-others"><a className="nav-link text-dark">Hardware&nbsp;&&nbsp;Others </a></Link></Nav.Link>
                             </Nav.Item>
                         </Nav>
                     </Navbar.Collapse>

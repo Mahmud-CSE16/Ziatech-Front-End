@@ -5,7 +5,7 @@ const PackagingPrinting = () => {
     const img = "/products/08.jpeg"
     return (
         <>
-                <SEOLayout title={title+ " | ZiaTech BD"} />
+                <SEOLayout title={title+ " | ziatech"} />
 
             <main>
                 <section className="page-hero">

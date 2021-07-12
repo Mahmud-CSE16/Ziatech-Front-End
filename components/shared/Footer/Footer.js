@@ -37,12 +37,12 @@ const Footer = () => {
                             <h5 className="text-dark font-weight-bold mb-4">Visit Our Showroom</h5>
                             <p className="text-dark" >Corporate Office & Show Room-1: HR Plaza, 43/2/1, Janapath Mur, Saidabad, Dhaka-1100.</p>
                             <div className="mt-4">
-                                <a href="http://fb.com" target="_blank" rel="noopener noreferrer">
+                                {/* <a href="http://fb.com" target="_blank" rel="noopener noreferrer">
                                     <div className="social-icon-container" >
                                         <div className="social-icons"><FaFacebookF /></div>
                                     </div>
-                                </a>
-                                <a href="http://fb.com" target="_blank" rel="noopener noreferrer">
+                                </a> */}
+                                <a href="https://www.linkedin.com/company/74720530/admin/" target="_blank" rel="noopener noreferrer">
                                     <div className="social-icon-container" >
                                         <div className="social-icons"><FaLinkedinIn /></div>
                                     </div>

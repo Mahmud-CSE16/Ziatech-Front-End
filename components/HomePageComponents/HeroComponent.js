@@ -40,7 +40,7 @@ const HeroComponent = () => {
                     </Carousel.Item>
                 </Carousel>
                 {/* <div className="text-right">
-                    <h1 className="text-white display-2">ZiaTech BD</h1>
+                    <h1 className="text-white display-2">ziatech</h1>
                     <p className="font-22"><i>a world famous brand of machinery</i></p>
                 </div> */}
                 {/* <div className="container">
