@@ -2,7 +2,7 @@ footer {
     // background-image: url('/img/site-images/footer-bg.jpeg');
     .part-1 {
         p {
-            color: #ccc;
+            // color: #ccc;
             line-height: 25px;
             font-size: 14px;
             span {
@@ -18,7 +18,7 @@ footer {
         padding: 0;
         li {
             transition: 0.2s all ease-in-out;
-            color: #ccc;
+            // color: #ccc;
             cursor: pointer;
             span {
                 font-size: 18px;
@@ -31,7 +31,7 @@ footer {
                 margin-bottom: 8px;
             }
             &:hover {
-                color: #fff;
+                // color: #fff;
             }
         }
     }
@@ -41,4 +41,7 @@ footer {
     .footer-logo{
         height:60px
     }
+}
+.text-dark{
+    color: #000;
 }

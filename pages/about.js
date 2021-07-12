@@ -11,21 +11,20 @@ const about = () => {
                         <div className="row">
                             <div className="col-md-8 offset-md-2">
                                 <h1>About Us</h1>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta libero molestias quos odio, corrupti illo veritatis vel quasi excepturi iste nobis itaque. </p>
+                                {/* <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta libero molestias quos odio, corrupti illo veritatis vel quasi excepturi iste nobis itaque. </p> */}
                             </div>
                         </div>
                     </div>
                 </section>
-                <section className="py-5 mission">
+                <section className="pt-5 mission">
                     <div className="container py-4">
                         <div className="row d-flex align-items-center">
                             <div className="col-md-6">
-                                <h2 className="h1">Our Mission in the Company</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero repudiandae eius ea rem iusto. Voluptatibus commodi ipsum odio totam labore dicta harum tempore, eaque exercitationem, aliquid nulla veniam quidem culpa distinctio nobis.</p>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa repellendus temporibus labore tenetur obcaecati, cumque voluptas iste id doloremque nam maiores excepturi.</p>
-                                <button className="mt-4 btn btn-primary">READ MORE</button>
+                                <h2 className="h1">ziatech</h2>
+                                <p>"Be brave and confident, hope and make plans, get ready, fix aim, take the risk, begin work or business, remove obstacles, make challenging life, be a successful person or an industrialist, finally gain gorgeous, shining and successful life."</p>
+                                <p className="font-bold mt-3">-Engineer Zia Ziddy</p>
                                 <hr className="my-5" />
-                                <div className="d-flex market-exp">
+                                {/* <div className="d-flex market-exp">
                                     <div className="num text-danger m-0">
                                         10
                                     </div>
@@ -33,7 +32,7 @@ const about = () => {
                                         <h5 className="font-weight-bold">Years on the Market</h5>
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, explicabo. Impedit, cupiditate?</p>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                             <div className="col-md-6 text-center">
                                 <img src="/img/products/04.jpeg" alt="" className="img-fluid" />
@@ -41,7 +40,7 @@ const about = () => {
                         </div>
                     </div>
                 </section>
-                <section className="team bg-light py-5">
+                {/* <section className="team bg-light py-5">
                     <div className="container py-4 pb-5 mb-4">
                         <h2 className="h1 text-center mb-5">The Team Behind the Business</h2>
                         <div className="row">
@@ -66,9 +65,10 @@ const about = () => {
                             <PartnerLogo />
                         </div>
                     </div>
-                </section>
+                </section> */}
+
                 {/* testimonials */}
-                <section className="testimonial bg-light py-5">
+                {/* <section className="testimonial bg-light py-5">
                     <div className="container py-4">
                         <h2 className="h1 text-center mb-5">Customers' opinions</h2>
                         <div className="row">
@@ -98,7 +98,7 @@ const about = () => {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
             </main>
         </>
     );

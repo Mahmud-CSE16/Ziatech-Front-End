@@ -2,10 +2,10 @@
     // font-size: 22px;
     border-radius: 100px;
     padding: 8px;
-    background-color: #033642;
+    background-color: #0db04b;
     display: inline-block;
     color: #fff;
-    border: 2px solid #fff;
+    border: 2px solid #0db04b;
     transition: all 0.3s ease-in-out;
     svg {
         height: 24px;
@@ -18,11 +18,11 @@
     display: inline-block;
 }
 .social-icon-container:hover .social-icons {
-    color: #fc8540;
-    background-color: #033642;
+    color: #fff;
+    background-color: #0db04b;
     cursor: pointer;
     text-decoration: none;
-    border: 2px solid #fc8540;
+    border: 2px solid #000;
 
 }
 a.social-icon-container:hover {

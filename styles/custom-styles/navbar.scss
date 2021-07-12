@@ -1,5 +1,10 @@
 .gray-bottom-border{
-    border-bottom: 1px solid rgba(243, 247, 255, 0.384);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    // border-bottom: 1px solid rgba(243, 247, 255, 0.384);
+}
+.light-gray-bottom-border{
+    border-bottom: 1px solid rgba(82, 82, 82, 0.3);
+    // border-bottom: 1px solid rgba(243, 247, 255, 0.384);
 }
 .header-top{
     p{
@@ -10,18 +15,21 @@
         font-size: 38px;
     }
 }
+a.nav-link{
+    font-size: 15px;
+}
 nav.nav-lg.navbar-dark{
     .navbar-nav span.nav-item{
-        color: #fff !important;
+        color: #000 !important;
         &:hover{
             color: red;
         }
         a:hover{
-            color: rgba(255, 255, 255, 0.5);
+            color: rgba(0, 0, 0, 0.8);
         }
     }
     a.nav-link:hover{
-        color: rgba(255, 255, 255, 0.5) !important;
+        color: rgba(0, 0, 0, 0.5) !important;
     }
 
 

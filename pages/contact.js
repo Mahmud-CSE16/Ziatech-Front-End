@@ -25,7 +25,7 @@ const msgBody = `<b>Phone: ${data.phone}</b> <br/> <br/><p>${data.message}</p>`
                 {/* breadcrumb */}
                 <section className="bg-light py-4">
                     <div className="container">
-                        <Link href="/"><a className="text-primary font-bold">Home</a></Link> <span className="text-secondary font-14"> <FaChevronRight /></span> Contact
+                        <Link href="/"><a className="text-dark font-bold">Home</a></Link> <span className="text-secondary font-14"> <FaChevronRight /></span> Contact
                         <h2 className="mt-2 mb-0 font-bold">Contact</h2>
                     </div>
                     {/* <nav>
@@ -69,7 +69,7 @@ const msgBody = `<b>Phone: ${data.phone}</b> <br/> <br/><p>${data.message}</p>`
                                     </div>
                                 </form>
                             </div>
-                            <div className="col-md-4 p-5 text-white bg-primary contact-sidebar">
+                            <div className="col-md-4 p-5 text-dark bg-primary contact-sidebar">
                                 <div className="icon-box mb-5">
                                     <div className="icon">
                                         <FaEnvelopeOpenText />
@@ -83,7 +83,7 @@ const msgBody = `<b>Phone: ${data.phone}</b> <br/> <br/><p>${data.message}</p>`
                                         <FaMapMarkerAlt />
                                     </div>
                                     <h3>Office Address</h3>
-                                    <p>Mirpur, Dhaka</p>
+                                    <p>Corporate Office & Show Room-1: HR Plaza, 43/2/1, Janapath Mur, Saidabad, Dhaka-1100.</p>
                                 </div>
                                 <div className="icon-box mb-5">
                                     <div className="icon">

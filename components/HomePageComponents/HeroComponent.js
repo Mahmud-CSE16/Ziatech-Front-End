@@ -17,24 +17,24 @@ const HeroComponent = () => {
                     <Carousel.Item>
                         <div style={{ background: `linear-gradient(0deg, rgba(7, 16, 19, 0.8), rgba(0, 0, 0, .6)),url(${bg1})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }} className="d-flex align-items-center justify-content-center carousel-img">
                             <div className="text-center text-md-right">
-                                <h1 className="display-2 font-weight-bold">ZiaTech BD</h1>
-                                <p className="font-22">a world famous brand of machinery &nbsp;</p>
+                                <h1 className="display-2 mb-0"><i>ziatech</i> </h1>
+                                <p className="font-22"><i>an world famous brand of machinery</i> &nbsp;</p>
                             </div>
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
                         <div style={{ background: `linear-gradient(0deg, rgba(7, 16, 19, 0.8), rgba(0, 0, 0, .6)),url(${bg2})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }} className="d-flex align-items-center justify-content-center carousel-img">
                             <div className="text-center text-md-right">
-                                <h1 className="display-2 font-weight-bold">ZiaTech BD</h1>
-                                <p className="font-22">a world famous brand of machinery &nbsp;</p>
+                                <h1 className="display-2 mb-0"><i>ziatech</i> </h1>
+                                <p className="font-22"><i>an world famous brand of machinery</i> &nbsp;</p>
                             </div>
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
                         <div style={{ background: `linear-gradient(0deg, rgba(7, 16, 19, 0.8), rgba(0, 0, 0, .6)),url(${bg3})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }} className="d-flex align-items-center justify-content-center carousel-img">
                             <div className="text-center text-md-right">
-                                <h1 className="display-2 font-weight-bold">ZiaTech BD</h1>
-                                <p className="font-22">a world famous brand of machinery &nbsp;</p>
+                                <h1 className="display-2 mb-0"><i>ziatech</i> </h1>
+                                <p className="font-22"><i>an world famous brand of machinery</i> &nbsp;</p>
                             </div>
                         </div>
                     </Carousel.Item>
