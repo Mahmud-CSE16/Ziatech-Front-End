@@ -2,11 +2,11 @@ import PlasticRubber from "../../components/products/PlasticRubber";
 import SEOLayout from "../../components/shared/SEOLayout";
 
 const PackagingPrinting = () => {
-    const title= `Plastic & Rubber Machine`;
+    const title = `Plastic & Rubber Machine`;
     const img = "/products/04.jpeg"
     return (
         <>
-                <SEOLayout title={title+ " | ziatech"} />
+            <SEOLayout title={title + " | ziatech"} />
 
             <main>
                 <section className="page-hero">
@@ -19,6 +19,8 @@ const PackagingPrinting = () => {
                         </div>
                     </div>
                 </section>
+                <PlasticRubber />
+
                 <section className="bg-white py-5">
                     <div className="container">
                         <div className="row">
@@ -29,7 +31,7 @@ const PackagingPrinting = () => {
                                         <a href="tel:+8801912152784" className="">+880 1912 152784</a>
                                     </div>
                                     <div>
-                                    <a href="tel:+8801912152784" className="btn btn-md-lg btn-success ">CALL&nbsp;NOW</a>
+                                        <a href="tel:+8801912152784" className="btn btn-md-lg btn-success ">CALL&nbsp;NOW</a>
                                     </div>
                                 </div>
                                 {/* image */}
@@ -37,7 +39,6 @@ const PackagingPrinting = () => {
                         </div>
                     </div>
                 </section>
-                <PlasticRubber />
                 <section className="bg-white py-5">
                     <div className="container">
                         <div className="row">

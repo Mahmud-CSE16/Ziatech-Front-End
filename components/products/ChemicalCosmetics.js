@@ -102,7 +102,13 @@ const ChemicalCosmetics = () => {
                                     ১৬৪। আতর মেশিন</div>
                                 <div className='item card'>165. Hair Dye Machine/
                                     ১৬৫। হেয়ার ডাই মেশিন</div>
-                                <div className='item card'>166. Shoe Polish Machine/
+                            
+
+                            </div>
+                        </div>
+                        <div className="col-md-6">
+                            <div className="product-list">
+                            <div className='item card'>166. Shoe Polish Machine/
                                     ১৬৬। জুতার কালী বা সু পলিশ মেশিন</div>
                                 <div className='item card'>167. Press Ink (Black) Machine/
                                     ১৬৭। ছাপার কালি (কালো) মেশিন</div>
@@ -110,11 +116,6 @@ const ChemicalCosmetics = () => {
                                     ১৬৮। ছাপার কালি (বেগুনী) মেশিন</div>
                                 <div className='item card'>169. Press Ink (Blue) Machine/
                                     ১৬৯। ছাপার কালি (নীল) মেশিন</div>
-
-                            </div>
-                        </div>
-                        <div className="col-md-6">
-                            <div className="product-list">
                                 <div className='item card'>170. Press Ink (Green) Machine/
                                     ১৭০। ছাপার কালি (সবুজ) মেশিন</div>
                                 <div className='item card'>171. Rubber Stamp Ink (Violet) Machine/

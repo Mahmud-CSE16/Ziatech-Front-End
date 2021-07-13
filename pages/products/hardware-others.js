@@ -1,11 +1,12 @@
+import HardwareOthers from "../../components/products/HardwareOthers";
 import SEOLayout from "../../components/shared/SEOLayout";
 
 const PackagingPrinting = () => {
-    const title= `Hardware & Others Machine`;
+    const title = `Hardware & Others Machine`;
     const img = "/products/05.jpeg"
     return (
         <>
-                <SEOLayout title={title+ " | ziatech"} />
+            <SEOLayout title={title + " | ziatech"} />
 
             <main>
                 <section className="page-hero">
@@ -18,6 +19,7 @@ const PackagingPrinting = () => {
                         </div>
                     </div>
                 </section>
+                <HardwareOthers/>
                 <section className="bg-white py-5">
                     <div className="container">
                         <div className="row">
@@ -28,7 +30,7 @@ const PackagingPrinting = () => {
                                         <a href="tel:+8801912152784" className="">+880 1912 152784</a>
                                     </div>
                                     <div>
-                                    <a href="tel:+8801912152784" className="btn btn-md-lg btn-success ">CALL&nbsp;NOW</a>
+                                        <a href="tel:+8801912152784" className="btn btn-md-lg btn-success ">CALL&nbsp;NOW</a>
                                     </div>
                                 </div>
                                 {/* image */}

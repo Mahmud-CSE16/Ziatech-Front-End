@@ -1,3 +1,4 @@
+import PrintingPackaging from "../../components/products/PrintingPackaging";
 import SEOLayout from "../../components/shared/SEOLayout";
 
 const PackagingPrinting = () => {
@@ -18,6 +19,8 @@ const PackagingPrinting = () => {
                         </div>
                     </div>
                 </section>
+                <PrintingPackaging/>
+
                 <section className="bg-white py-5">
                     <div className="container">
                         <div className="row">

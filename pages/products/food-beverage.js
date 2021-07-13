@@ -19,6 +19,8 @@ const PackagingPrinting = () => {
                         </div>
                     </div>
                 </section>
+                <FoodBeverage/>
+
                 <section className="bg-white py-5">
                     <div className="container">
                         <div className="row">
@@ -38,7 +40,6 @@ const PackagingPrinting = () => {
                         </div>
                     </div>
                 </section>
-                <FoodBeverage/>
                 <style>
                     {`
                 .page-hero{

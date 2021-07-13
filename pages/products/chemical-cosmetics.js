@@ -18,6 +18,8 @@ const PackagingPrinting = () => {
                         </div>
                     </div>
                 </section>
+                <ChemicalCosmetics/>
+
                 <section className="bg-white py-5">
                     <div className="container">
                         <div className="row">
@@ -36,8 +38,7 @@ const PackagingPrinting = () => {
                         </div>
                     </div>
                 </section>
-                <ChemicalCosmetics/>
-                <section className="bg-white py-5">
+                <section className="bg-white">
                     <div className="container">
                         <div className="row">
                             <div className="col-md-8 offset-md-2">
