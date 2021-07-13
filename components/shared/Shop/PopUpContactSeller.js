@@ -8,7 +8,7 @@ const PopUpContactSeller = ({btn}) => {
     const handleShow = () => setShow(true);
     return (
         <>
-            <button onClick={handleShow} className={`btn btn-danger btn-${btn?btn: 'sm'}`}>BUY NOW</button>
+            <button onClick={handleShow} className={`btn btn-success btn-${btn?btn: 'sm'}`}>BUY NOW</button>
             <Modal
                 show={show}
                 onHide={handleClose}
@@ -22,11 +22,11 @@ const PopUpContactSeller = ({btn}) => {
                     <p className="mb-4">You may call the number below: </p>
                     <div className="text-center mb-4">
                         <h5 className="text-danger mb-3">+8801912 152784</h5>
-                        <a href="tel:+8801912152784"className="btn btn-danger btn-lg text-white">Call Now</a>
+                        <a href="tel:+8801912152784"className="btn btn-success btn-lg text-white">Call Now</a>
                     </div>
                 </Modal.Body>
                 <Modal.Footer>
-                    <Button onClick={handleClose}>Close</Button>
+                    <Button variant="success" onClick={handleClose}>Close</Button>
                 </Modal.Footer>
             </Modal>
         </>

@@ -31,7 +31,7 @@ const FeaturedCard = ({ data }) => {
                     <figure>
                         <figcaption>
                             <h2 className="">{data.name} </h2>
-                            <p><a href="#" className="btn btn-danger">Visit Now</a> </p>
+                            <p><a href="#" className="btn btn-success">Visit Now</a> </p>
                         </figcaption>
                     </figure>
                 </Link>

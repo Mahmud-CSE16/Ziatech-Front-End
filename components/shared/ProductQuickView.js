@@ -26,7 +26,7 @@ const ProductQuickView = ({ data, show, onHide }) => {
                             <p className="mb-4">You may call the number below: </p>
                             <div className="text-center mb-4">
                                 <h5 className="text-danger mb-3">+880 1912 152784</h5>
-                                <a href="tel:++8801912152784" className="btn btn-danger btn-lg text-white">Call Now</a>
+                                <a href="tel:++8801912152784" className="btn btn-success btn-lg text-white">Call Now</a>
                             </div>
                             {/* <h4 className="text-danger mb-4">৳ {data.price} </h4> */}
                             {/* <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, iure et voluptate excepturi saepe suscipit, est atque neque laborum sunt officiis fugit.</p> */}

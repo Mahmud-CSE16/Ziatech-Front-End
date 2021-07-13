@@ -19,7 +19,7 @@ const ProductCard = ({ data, col }) => {
                         {/* <h6 className="font-bold text-danger">৳ {data.price? data.price: 0}</h6> */}
                         <div className="my-4 d-flex justify-content-between">
                             <PopUpContactSeller/>
-                            <button onClick={()=> setQuickView(true)} className="btn btn-outline-danger btn-sm">Quick view</button>
+                            <button onClick={()=> setQuickView(true)} className="btn btn-outline-success btn-sm">Quick view</button>
                         </div>
                         <div className="quick-access text-right">
                             <AddToFavorite/> <br />
