@@ -19,22 +19,30 @@ const PackagingPrinting = () => {
                         </div>
                     </div>
                 </section>
+                <section className="bg-white pt-4">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-md-8 offset-md-2">
+                                <div className="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <h4>To buy any product call now:</h4>
+                                        <a href="tel:+8801912152784" className="">+880 1912 152784</a>
+                                    </div>
+                                    <div>
+                                        <a href="tel:+8801912152784" className="btn btn-md-lg btn-success ">CALL&nbsp;NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
                 <FoodBeverage/>
 
                 <section className="bg-white py-5">
                     <div className="container">
                         <div className="row">
                             <div className="col-md-8 offset-md-2">
-                                <div className="d-flex mb-5 mt-4 justify-content-between align-items-center">
-                                    <div>
-                                        <h4>To buy any product call now:</h4>
-                                        <a href="tel:+8801912152784" className="">+880 1912 152784</a>
-                                    </div>
-                                    <div>
-                                    <a href="tel:+8801912152784" className="btn btn-md-lg btn-success ">CALL&nbsp;NOW</a>
-                                    </div>
-                                </div>
-                                {/* catalogue */}
+                            
                                 <img src="/products/02.jpeg" alt="" className="img-fluid" />
                             </div>
                         </div>

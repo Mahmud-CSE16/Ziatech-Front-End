@@ -19,13 +19,11 @@ const PackagingPrinting = () => {
                         </div>
                     </div>
                 </section>
-                <PlasticRubber />
-
-                <section className="bg-white py-5">
+                <section className="bg-white pt-4">
                     <div className="container">
                         <div className="row">
                             <div className="col-md-8 offset-md-2">
-                                <div className="d-flex mt-4 justify-content-between align-items-center">
+                                <div className="d-flex justify-content-between align-items-center">
                                     <div>
                                         <h4>To buy any product call now:</h4>
                                         <a href="tel:+8801912152784" className="">+880 1912 152784</a>
@@ -34,11 +32,12 @@ const PackagingPrinting = () => {
                                         <a href="tel:+8801912152784" className="btn btn-md-lg btn-success ">CALL&nbsp;NOW</a>
                                     </div>
                                 </div>
-                                {/* image */}
                             </div>
                         </div>
                     </div>
                 </section>
+                <PlasticRubber />
+
                 <section className="bg-white py-5">
                     <div className="container">
                         <div className="row">
