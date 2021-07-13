@@ -1,0 +1,118 @@
+<div className='item card'>60. Coffee Machine/
+ ৬০। কফি মেশিন</div>
+<div className='item card'>61. Spice Mill/Plant/
+ ৬১। মশলা মিল/ প্ল্যান্ট</div>
+<div className='item card'>62. Chilly Spice Mill/
+ ৬২। মরিচের গুঁড়া মেশিন</div>
+<div className='item card'>63. Turmeric Spice Mill/
+ ৬৩। হলুদের গুঁড়া মেশিন</div>
+<div className='item card'>64. Dhonia Spice Mill/
+ ৬৪। ধনিয়ার গুঁড়া মেশিন</div>
+<div className='item card'>65. Jhira Spice Mill/
+ ৬৫। ঝিরার গুঁড়া মেশিন</div>
+<div className='item card'>66. Rice Spice Mill/
+ ৬৬। চালের গুঁড়া মেশিন</div>
+<div className='item card'>67. Garlic Paste Machine/
+ ৬৭। রসুনের পেস্ট মেশিন</div>
+<div className='item card'>68. Ginger Paste Machine/
+ ৬৮। আদার পেস্ট মেশিন</div>
+<div className='item card'>69. Onion Paste Machine/
+ ৬৯। পেঁয়াজের পেস্ট মেশিন</div>
+<div className='item card'>70. Chilly Paste Machine/
+ ৭০। মরিচের পেস্ট মেশিন</div>
+<div className='item card'>71. Turmeric Paste Machine/
+ ৭১। হলুদের পেস্ট মেশিন</div>
+<div className='item card'>72. Mustard oil Machine/
+ ৭২। সরিষার তৈল মেশিন</div>
+<div className='item card'>73. Nut oil Machine/
+ ৭৩। বাদাম তৈল মেশিন</div>
+<div className='item card'>74. Soybean oil Machine/
+ ৭৪। সয়াবিন তৈল মেশিন</div>
+<div className='item card'>75. Soybean Refine Plant/
+ ৭৫। সয়াবিন রিফাইন প্ল্যান্ট</div>
+<div className='item card'>76. Pam oil Machine/
+ ৭৬। পাম অয়েল মেশিন</div>
+<div className='item card'>77. Sunflower oil Machine/
+ ৭৭। সুরযমুখী তৈল মেশিন</div>
+<div className='item card'>78. Rice Bran oil Plant/
+ ৭৮। রাইস ব্রান বা তুষের তৈল প্ল্যান্ট</div>
+<div className='item card'>79. Iodine Salt Machine/
+ ৭৯। আয়োডিন লবন মেশিন</div>
+<div className='item card'>80. Glucose Machine/
+ ৮০। গ্লুকোজ মেশিন</div>
+<div className='item card'>81. Testy Saline Machine/
+ ৮১। টেস্টই স্যালাইন মেশিন</div>
+<div className='item card'>82. Orange Drinks Powder (Tang Type) Machine/
+ ৮২। অরেঞ্জ ড্রিংকস পাঊডার (ট্যাং টাইপ)</div>
+<div className='item card'>83. Sugarcane juice Machine/
+ ৮৩। আখের রস মেশিন</div>
+<div className='item card'>84. Sugarcane Harvesting Machine/
+ ৮৪। আখ মাড়াই মেশিন</div>
+<div className='item card'>85. Fruit Jelly Machine/
+ ৮৫। মোরব্বা মেশিন</div>
+<div className='item card'>86. Condensed Milk Machine/
+ ৮৬। কণ্ডেনসড মিল্ক মেশিন</div>
+<div className='item card'>87. Milk Powder Machine/
+ ৮৭। গুঁড়ো দুধ মেশিন</div>
+<div className='item card'>88. Pasteurized Liquid Milk Machine/
+ ৮৮। পাস্তুরিত তরল দুধ মেশিন</div>
+<div className='item card'>89. Lacchi Machine/
+ ৮৯। লাচ্ছি মেশিন</div>
+<div className='item card'>90. Labang Machine/
+ ৯০। লাবাঙ মেশিন</div>
+<div className='item card'>91. Matha Machine/
+ ৯১। মাঠা মেশিন</div>
+<div className='item card'>92. Butter Machine/
+ ৯২। মাখন/ বাটার মেশিন</div>
+<div className='item card'>93. Ghee Machine/
+ ৯৩। ঘি মেশিন</div>
+<div className='item card'>94. Cheese Machine/
+ ৯৪। পনির মেশিন</div>
+<div className='item card'>95. Korean Egg Cake Machine/
+ ৯৫। কোরিয়ান ডিম কেক মেশিন</div>
+<div className='item card'>96. Chicken Dressing Machine/
+ ৯৬। মুরগি ছিলা মেশিন</div>
+<div className='item card'>97. Chicken Frying Auto Machine (Gas)/
+ ৯৭। মুরগি ফ্রাই করার অটো মেশিন</div>
+<div className='item card'>98. Jorda Machine/
+ ৯৮। জর্দা মেশিন</div>
+<div className='item card'>99. Jorda Machine/
+ ৯৯। জর্দার কৌটা মেশিন</div>
+<div className='item card'>100. Gul Machine/
+ ১০০। গুল মেশিন</div>
+<div className='item card'>101. Soya Food Machine/
+ ১০১। সয়া ফূড মেশিন</div>
+<div className='item card'>102. Dough Mixer Machine/
+ ১০২। খামির মিক্সার মেশিন</div>
+<div className='item card'>103. Chanachur Mixer Machine/
+ ১০৩। চানাচুর মিক্সার মেশিন</div>
+<div className='item card'>104. Dal Dryer Machine/
+ ১০৪। ডাল শোকানো মেশিন</div>
+<div className='item card'>105. Spiral Bread Mixer Machine-1/
+ ১০৫। স্পাইরাল রুটি মিক্সার মেশিন-১</div>
+<div className='item card'>106. Spiral Bread Mixer Machine-2/
+ ১০৬। স্পাইরাল রুটি মিক্সার মেশিন-২</div>
+<div className='item card'>107. Spiral Cake/Biscuit Mixer Machine/
+ ১০৭। স্পাইরাল কেক/ বিস্কুট মিক্সার মেশিন</div>
+<div className='item card'>108. High Speed Bread Mixer Machine/
+ ১০৮। দ্রুতগতির রুটি মিক্সার মেশিন</div>
+<div className='item card'>109. Bread Slicer Machine/
+ ১০৯। রুটি চাকলা করে কাটার মেশিন</div>
+<div className='item card'>110. Dough Divider Machine/
+ ১১০। খামির ভাগ করার মেশিন</div>
+<div className='item card'>111. Divider Machine/
+ ১১১। ভাগ করার মেশিন</div>
+<div className='item card'>112. Zed Mixer Machine/
+ ১১২। জেড মিক্সার মেশিন</div>
+<div className='item card'>113. Dough Molder Machine/
+ ১১৩। খামির মোলডার মেশিন</div>
+<div className='item card'>114. Dough Ruler Machine/
+ ১১৪। খামির বেলন মেশিন</div>
+<div className='item card'>115. Roller Oven Machine (Gas/ Electricity)/
+ ১১৫। রোলার ওভেন মেশিন (গ্যাস/ ইলেক্ট্রিসিটি)</div>
+<div className='item card'>116. Biscuit Oven Machine (Gas/ Electricity)/
+ ১১৬। বিস্কুট ওভেন মেশিন (গ্যাস/ ইলেক্ট্রিসিটি)</div>
+<div className='item card'>117. Rotary Oven Machine (Gas/ Electricity)-1/
+ ১১৭। রোডারী ওভেন মেশিন (গ্যাস/ ইলেক্ট্রিসিটি)-১</div>
+<div className='item card'>118. Rotary Oven Machine (Gas/ Electricity)-1/
+ ১১৮। রোডারী ওভেন মেশিন (গ্যাস/ ইলেক্ট্রিসিটি)-২</div>

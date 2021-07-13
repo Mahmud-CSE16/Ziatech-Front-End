@@ -1,3 +1,4 @@
+import FoodBeverage from "../../components/products/FoodBeverage";
 import SEOLayout from "../../components/shared/SEOLayout";
 
 const PackagingPrinting = () => {
@@ -37,6 +38,7 @@ const PackagingPrinting = () => {
                         </div>
                     </div>
                 </section>
+                <FoodBeverage/>
                 <style>
                     {`
                 .page-hero{
