@@ -1,18 +1,21 @@
 .page-hero {
-    padding: 70px 0;
+    padding: 60px 0;
     background: linear-gradient(0deg, rgba(11, 40, 49, 0.98), #29586498),
         url("/bg/industry-img-background.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     position: center center;
-
+    h1{
+        margin-bottom: 0;
+    }
 }
 
 @media (min-width: 786px) {
     .page-hero {
-        padding: 100px 0;
+        padding: 70px 0;
     }
 }
+
 .market-exp{
     .num{
         font-weight: 900;
@@ -38,7 +41,9 @@ main.about{
         position: relative;
         width:100%;
         z-index: 2px;
-
+h6{
+    font-weight: bold;
+}
         p{
             margin-bottom: 0;
         }

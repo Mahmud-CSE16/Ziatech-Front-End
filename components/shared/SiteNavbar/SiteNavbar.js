@@ -24,16 +24,32 @@ const SiteNavbar = () => {
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav style={{ color: "#FFFFFF" }} className="ml-auto text-center d-flex align-items-center">
                             <Nav.Item>
-                                <Nav.Link eventKey="1" className="ml-4"><Link href="/about"><a className="nav-link text-dark">About </a></Link></Nav.Link>
+                                <Nav.Link eventKey="1" className="ml-1"><Link href="/"><a className="nav-link text-dark">Home </a></Link></Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="3" className="ml-4"><Link href="/contact"><a className="nav-link text-dark">Contact</a></Link></Nav.Link>
+                                <Nav.Link eventKey="1" className="ml-1"><Link href="/about"><a className="nav-link text-dark">About Us</a></Link></Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="2" className="ml-4"><Link href="/services"><a className="nav-link text-dark">Services</a></Link></Nav.Link>
+                                <Nav.Link eventKey="1" className="ml-1"><Link href="/company-profile"><a className="nav-link text-dark">Company Profile </a></Link></Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <a href="tel:+8801912152784" className="ml-4 btn btn-success">CALL NOW</a>
+                                <Nav.Link eventKey="3" className="ml-1"><Link href="/aim-achievements"><a className="nav-link text-dark">Our Aim & Achievements</a></Link></Nav.Link>
+                            </Nav.Item>
+                            <Nav.Item>
+                                <Nav.Link eventKey="3" className="ml-1"><Link href="/dealers-showrooms"><a className="nav-link text-dark">Dealers Showrooms</a></Link></Nav.Link>
+                            </Nav.Item>
+
+                            <Nav.Item>
+                                <Nav.Link eventKey="2" className="ml-1"><Link href="/clients"><a className="nav-link text-dark">Clients</a></Link></Nav.Link>
+                            </Nav.Item>
+                            <Nav.Item>
+                                <Nav.Link eventKey="2" className="ml-1"><Link href="/career"><a className="nav-link text-dark">Career</a></Link></Nav.Link>
+                            </Nav.Item>
+                            <Nav.Item>
+                                <Nav.Link eventKey="2" className="ml-1"><Link href="/services"><a className="nav-link text-dark">Services</a></Link></Nav.Link>
+                            </Nav.Item>
+                            <Nav.Item>
+                                <a href="tel:+8801912152784" className="ml-1 btn btn-success">CALL NOW</a>
                             </Nav.Item>
                         </Nav>
                     </Navbar.Collapse>

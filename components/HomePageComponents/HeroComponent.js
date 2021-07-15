@@ -5,36 +5,36 @@ import { GiGears } from "react-icons/gi"
 import { FiMessageCircle } from "react-icons/fi"
 
 const HeroComponent = () => {
-    const bg1 = `https://images.pexels.com/photos/2760289/pexels-photo-2760289.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500`;
-    const bg2 = `https://images.pexels.com/photos/287237/pexels-photo-287237.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500`;
-    const bg3 = `https://images.pexels.com/photos/256297/pexels-photo-256297.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500`;
+    const bg1 = `/bg/01.jpeg`;
+    const bg2 = `/bg/02.jpeg`;
+    const bg3 = `/bg/03.jpeg`;
 
     return (
         <>
             <section className="hero-section">
 
-                <Carousel slide={false} pause="hover" interval={2500} controls={false} indicators={false} >
+                <Carousel slide={false} pause="" interval={2500} controls={false} indicators={false} >
                     <Carousel.Item>
-                        <div style={{ background: `linear-gradient(0deg, rgba(7, 16, 19, 0.8), rgba(0, 0, 0, .6)),url(${bg1})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }} className="d-flex align-items-center justify-content-center carousel-img">
+                        <div style={{ background: `url(${bg1})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }} className="d-flex align-items-center justify-content-center carousel-img">
                             <div className="text-center text-md-right">
-                                <h1 className="display-2 mb-0"><i>ziatech</i> </h1>
-                                <p className="font-22"><i>an world famous brand of machinery</i> &nbsp;</p>
+                                {/* <h1 className="display-2 mb-0"><i>ziatech</i> </h1>
+                                <p className="font-22"><i>an world famous brand of machinery</i> &nbsp;</p> */}
                             </div>
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <div style={{ background: `linear-gradient(0deg, rgba(7, 16, 19, 0.8), rgba(0, 0, 0, .6)),url(${bg2})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }} className="d-flex align-items-center justify-content-center carousel-img">
+                        <div style={{ background: `url(${bg2})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }} className="d-flex align-items-center justify-content-center carousel-img">
                             <div className="text-center text-md-right">
-                                <h1 className="display-2 mb-0"><i>ziatech</i> </h1>
-                                <p className="font-22"><i>an world famous brand of machinery</i> &nbsp;</p>
+                                {/* <h1 className="display-2 mb-0"><i>ziatech</i> </h1>
+                                <p className="font-22"><i>an world famous brand of machinery</i> &nbsp;</p> */}
                             </div>
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <div style={{ background: `linear-gradient(0deg, rgba(7, 16, 19, 0.8), rgba(0, 0, 0, .6)),url(${bg3})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }} className="d-flex align-items-center justify-content-center carousel-img">
+                        <div style={{ background: `url(${bg3})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }} className="d-flex align-items-center justify-content-center carousel-img">
                             <div className="text-center text-md-right">
-                                <h1 className="display-2 mb-0"><i>ziatech</i> </h1>
-                                <p className="font-22"><i>an world famous brand of machinery</i> &nbsp;</p>
+                                {/* <h1 className="display-2 mb-0"><i>ziatech</i> </h1>
+                                <p className="font-22"><i>an world famous brand of machinery</i> &nbsp;</p> */}
                             </div>
                         </div>
                     </Carousel.Item>

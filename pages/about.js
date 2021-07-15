@@ -3,7 +3,7 @@ import SEOLayout from "../components/shared/SEOLayout";
 const about = () => {
     return (
         <>
-        <SEOLayout title="About | ziatech"/>
+            <SEOLayout title="About | ziatech" />
             <main className="about">
 
                 <section className="page-hero">
@@ -16,26 +16,79 @@ const about = () => {
                         </div>
                     </div>
                 </section>
-                <section className="pt-5 mission">
+                <section className="pt-0 mission">
                     <div className="container py-4">
                         <div className="row d-flex align-items-center">
                             <div className="col-md-6">
                                 <h2 className="h1">ziatech</h2>
-                                <p>"Be brave and confident, hope and make plans, get ready, fix aim, take the risk, begin work or business, remove obstacles, make challenging life, be a successful person or an industrialist, finally gain gorgeous, shining and successful life."</p>
-                                <p className="font-bold mt-3">-Engineer Zia Ziddy</p>
-                                <hr className="my-5" />
-                                {/* <div className="d-flex market-exp">
-                                    <div className="num text-danger m-0">
-                                        10
-                                    </div>
-                                    <div className="text pl-4">
-                                        <h5 className="font-weight-bold">Years on the Market</h5>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, explicabo. Impedit, cupiditate?</p>
-                                    </div>
-                                </div> */}
+                                <p>ziatech auto machine & engineering company ltd. is situated at MR Plaza, 25/1/C, Janapath Mur, Sayedabad,Dhaka-1100, Bangladesh.</p>
+                                <p>We have started our business in 2006 From Bangladesh. We have achieved so much experience within this time by serving our many honorable & valuable clients. We have set up so many industrial machineries or plants in Bangladesh. Now our business & services are expreading widely in abroad, especially in the countries of SAARC.</p>
+                                <p className="mt-4">We have a large corporate office, three large machine manufacturing factories in Bangladesh, so many showrooms, dealers & suppliers in home & abroad.</p>
+                                <p>Our company characteristics are &ndash;</p>
+                                <ol>
+                                    <li>We set up all kinds of small/middle/large industrial machines/plants/production lines.</li>
+                                    <li>We are expert and experienced to set up all industrial machines/plants/production lines.</li>
+                                    <li>We are helpful, sincere and honest for all of our honorable clients of home and abroad.</li>
+                                    <li>Our products characteristics are &ndash; low rate, right quality, right quantity &amp; ultra modern.</li>
+                                </ol>
+                                <p>Our company theme dialogue is- `<strong>High power industrial machine &amp; steel products manufacturer</strong>&rsquo; and our business theme dialogue is- ` <strong>A stair of top success</strong>&rsquo;.</p>
+
+
+
                             </div>
                             <div className="col-md-6 text-center">
                                 <img src="/img/products/04.jpeg" alt="" className="img-fluid" />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section className="py-4">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-md-8 offset-md-2">
+                                <p>We serve our client&rsquo;s by -</p>
+
+                                <ol>
+                                    <li>Providing Primary Idea &amp; Selecting Products,</li>
+                                    <li>Providing Required Training Course,</li>
+                                    <li>Providing Project Profile or Quotation,</li>
+                                    <li>Making &amp; Setting machineries/Plants/Production lines,</li>
+                                    <li>Supplying Required Raw Materials,</li>
+                                    <li>Supplying Formulas &amp; Chemists or Technicians,</li>
+                                    <li>Assuring Production As Per BSTI &amp; ISO Standard,</li>
+                                    <li>Making Cylinder and Printing Label,</li>
+                                    <li>Helping for all License- (Trade Mark, BSTI, Join Stock etc.),</li>
+                                    <li>Providing Scientific Marketing Plan for selling products.</li>
+                                </ol>
+
+                                <p>Moreover, we have written an Industrialization Guide Book named &lsquo;<strong>shilpunnoto Bangladesh</strong>&rsquo; which gives more ideas &amp; knowledges to our honorable clients about Industrialization to be an industrialist or entrepreneur.</p>
+
+                            </div>
+                            <div className="col-md-8 offset-md-2">
+                                <p>We make and set up about all kinds of industrial machines for manufacturing above 500 industrial products of 8 kinds machineries group like-</p>
+
+                                <div className="pl-4">
+                                    <p>1. Food &amp; Beverage Machineries</p>
+                                    <p>2. Chemical &amp; Cosmetic Machineries</p>
+                                    <p>3. Plastic &amp; Rubber Machineries</p>
+                                    <p>4. Hardware &amp; Others Machineries</p>
+                                    <p>5. Construction &amp; Farms Machineries</p>
+                                    <p>6. Pharmaceutical &amp; Herbal Machineries</p>
+                                    <p>7. Packaging &amp; Sealing Machineries</p>
+                                    <p>8. Garments &amp; Textile Machineries.</p>
+                                </div>
+                            </div>
+                            <div className="col-md-8 offset-md-2 mt-4">
+                                <p>Besides, we make so many Ultra Modern Steel Products like steel gate, collapsible gate, grill, window, shutter, almira, kobza, door locker etc. Our company exports all kinds of machines &amp; steel products to abroad and also imports valuable parts, raw materials if require.</p>
+                                <p>In this way we are serving our nation and our honorable client&rsquo;s of home &amp; abroad.</p>
+                                <p>If you want to know more about us please verify and justify yourself first and then you come to us.</p>
+                                <p>&nbsp;</p>
+                                <p><strong>Engineer Zia Ziddy</strong></p>
+                                <p><strong>Chairman &amp; CEO,</strong></p>
+                                <p><strong>ziatech auto machine &amp; engineering company ltd.</strong></p>
+                                <p>&nbsp;</p>
+                                <p>MR Plaza, 25/1/C, Janapath Mur, Sayedabad,</p>
+                                <p>Dhaka-1100, Bangladesh.</p>
                             </div>
                         </div>
                     </div>
