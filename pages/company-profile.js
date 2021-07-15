@@ -41,7 +41,7 @@ const CompanyProfile = () => {
                 </section>
                 <section className="pb-5 pt-4">
                     <div className="container">
-                        <div className="row d-flex align-items-center">
+                        <div className="row mb-4 d-flex align-items-center">
                             <div className="col-md-3 text-center  offset-md-3">
                                 <TeamMemberCard data={ziddy} />
                             </div>
@@ -56,9 +56,9 @@ const CompanyProfile = () => {
                         OUR COMPANY: MAIN OFFICERS PANEL
                     </h2>
                 </section>
-                <section className="py-4">
+                <section className="pt-4 pb-4">
                     <div className="container">
-                        <div className="row d-flex align-items-center">
+                        <div className="row mb-5 d-flex align-items-center">
                             <div className="col-md-3 text-center offset-md-3">
                                 <TeamMemberCard data={nashir} />
                             </div>
@@ -91,7 +91,7 @@ const CompanyProfile = () => {
                                         <strong>Type of Organization</strong>
                                     </div>
                                     <div className="col-8">
-                                        <b>:</b> 
+                                        <b>:</b> Private Limited Company
                                     </div>
                                 </div>
                                 {/* 3 */}
@@ -100,7 +100,15 @@ const CompanyProfile = () => {
                                         <strong>Address</strong>
                                     </div>
                                     <div className="col-8">
-                                        <b>:</b> 
+                                        <b>:</b> <p> Corporate Office-MR Plaza, 2nd Floor, 25/1/C, Janapathmur, Sayedabad, Dhaka-1100, Bangladesh.</p> <br />
+                                        <p>Phone: +88-02-7553243, Fax: +88-02-7553253,</p>
+                                        <p>Cell: +88-01912152784, +88-01962415709, +88-01768963858.</p>
+                                        <p>E-mail: ziaziddy@gmail.com. , ziatechbd@gmail.com,</p>
+                                        <p>Facebook: www.facebook.com/zia.ziddy.</p>
+                                        <p>&nbsp;</p>
+                                        <p><strong>Factory- 1,</strong> Sayedabad, Dhaka-1100,</p>
+                                        <p><strong>Factory- 2</strong>, Jatrabary, Dhaka-1100,</p>
+                                        <p><strong>Factory &ndash; 3</strong>, Rayerbag, Dhaka-1100</p>
                                     </div>
                                 </div>
                                 {/* 3 */}
@@ -109,7 +117,7 @@ const CompanyProfile = () => {
                                         <strong>Web site</strong>
                                     </div>
                                     <div className="col-8">
-                                        <b>:</b> 
+                                        <b>:</b> <a href="http://www.ziatechbd.com">www.ziatechbd.com</a>
                                     </div>
                                 </div>
                                 {/* 3 */}
@@ -118,7 +126,7 @@ const CompanyProfile = () => {
                                         <strong>Existing Office Floor Area</strong>
                                     </div>
                                     <div className="col-8">
-                                        <b>:</b> 
+                                        <b>:</b> 4000 Sqr ft.  (Approx.)
                                     </div>
                                 </div>
                                 {/* 3 */}
@@ -127,7 +135,7 @@ const CompanyProfile = () => {
                                         <strong>Existing factory space Area</strong>
                                     </div>
                                     <div className="col-8">
-                                        <b>:</b> 
+                                        <b>:</b> 2 Biga.  (Approx.)
                                     </div>
                                 </div>
                                 {/* 3 */}
@@ -136,7 +144,7 @@ const CompanyProfile = () => {
                                         <strong>Chairman & CEO</strong>
                                     </div>
                                     <div className="col-8">
-                                        <b>:</b> 
+                                        <b>:</b> Engineer Zia Ziddy
                                     </div>
                                 </div>
                                 {/* 3 */}
@@ -145,7 +153,11 @@ const CompanyProfile = () => {
                                         <strong>Board of Directors</strong>
                                     </div>
                                     <div className="col-8">
-                                        <b>:</b> 
+                                        <b>:</b> <ol>
+                                            <li>Lt Cln Khondakar Amjad Hossain (Rtd), Executive Director.</li>
+                                            <li>Shahnaz Parvin, Admin Director.</li>
+                                            <li>Shahidul Islam Kabir, Marketing Director</li>
+                                        </ol>
                                     </div>
                                 </div>
                                 {/* 3 */}
@@ -211,6 +223,21 @@ const CompanyProfile = () => {
                                         <b>:</b> 64
                                     </div>
                                 </div>
+                                <div className="row mt-5">
+                                    <div className="col-12">
+                                        <p>জিয়া জিদ্দী</p>
+                                        <p>চেয়ারম্যান,</p>
+                                        <p>জিয়াটেক অটো মেশিন এন্ড ইঞ্জিনিয়ারিং কোম্পানী লিঃ,</p>
+                                        <p>এম আর প্লাজা, ২৫/১/সি, জনপথ মোড়, সায়েদাবাদ,</p>
+                                        <p>ঢাকা-১১০০, বাংলাদেশ।</p>
+                                        <p>&nbsp;</p>
+                                        <p>ফোনঃ +৮৮-০২-৭৫৫৩২৪৩, ফ্যাক্সঃ +৮৮-০২-৭৫৫৩২৫৩।</p>
+                                        <p>সেলঃ +৮৮-০১৯১২১৫২৭৮৪, +৮৮-০১৯৬২৪১৫৭০৯, +৮৮-০১৭৬৮৯৬৩৮৫৮।</p>
+                                        <p>ই-মেইলঃ <a href="mailto:ziaziddy@gmail.com">ziaziddy@gmail.com</a> , <a href="mailto:ziatechbd@gmail.com">ziatechbd@gmail.com</a>,</p>
+                                        <p>ফেসবুকঃ <a href="http://www.facebook.com/zia.ziddy">www.facebook.com/zia.ziddy</a>.</p>
+                                        <p>ওয়েবসাইটঃ <a href="http://www.ziatechbd.com">www.ziatechbd.com</a></p>
+                                    </div>
+                                </div>
                                 {/* 3 */}
                                 {/* <div className="row mb-3">
                                     <div className="col-md-4">
@@ -236,11 +263,11 @@ const TeamMemberCard = ({ data }) => {
         <>
             <div className="team-card text-center">
                 <div className="px-3">
-                    <img src={data.img ? data.img : "https://i.pravatar.cc/400?img=8"} alt="" className="img-fluid" />
+                    <img src={data.img ? data.img : "/img/blue-img.jpeg"} alt="" className="img-fluid" />
                 </div>
                 <div className="description-box py-4 px-3 ">
                     <h5>{data.name} </h5>
-                    {data.edu &&<p ><i> ({data.edu}) </i></p>}
+                    {data.edu && <p ><i> ({data.edu}) </i></p>}
                     <h6>{data.title} </h6>
                 </div>
             </div>
