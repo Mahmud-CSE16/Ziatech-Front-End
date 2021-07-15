@@ -46,7 +46,7 @@ const SiteNavbar = () => {
                                 <Nav.Link eventKey="2" className="ml-1"><Link href="/career"><a className="nav-link text-dark">Career</a></Link></Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="2" className="ml-1"><Link href="/services"><a className="nav-link text-dark">Services</a></Link></Nav.Link>
+                                <Nav.Link eventKey="2" className="ml-1"><Link href="/contact"><a className="nav-link text-dark">Contact</a></Link></Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
                                 <a href="tel:+8801912152784" className="ml-1 btn btn-success">CALL NOW</a>
@@ -60,6 +60,9 @@ const SiteNavbar = () => {
                 <div className="container-fluid">
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav style={{ color: "#000000" }} className="mx-auto text-center">
+                            <Nav.Item>
+                                <Nav.Link eventKey="161" className="ml-0"><Link href="/services"><a className="nav-link text-dark">Services</a></Link></Nav.Link>
+                            </Nav.Item>
                             <Nav.Item>
                                 <Nav.Link eventKey="1" className="ml-0"><Link href="/products/packaging-printing"><a className="nav-link text-dark">Packaging&nbsp;&&nbsp;Printing </a></Link></Nav.Link>
                             </Nav.Item>

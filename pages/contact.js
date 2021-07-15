@@ -1,118 +1,74 @@
-import Link from "next/link"
-import { useForm } from "react-hook-form";
-import { FaChevronRight, FaEnvelopeOpenText, FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa"
-import SEOLayout from "../components/shared/SEOLayout";
+import React from 'react';
 
 const contact = () => {
-    // if (typeof window !== "undefined") {
-    //     window.open('mailto:email@address.com?subject=Hello world&body=Line one%0DLine two', '_blank');
-    // }
-
-    const { register, handleSubmit, watch, formState: { errors } } = useForm();
-    const onFormSubmit =(data, e)=>{
-        console.log(data);
-const msgBody = `<b>Phone: ${data.phone}</b> <br/> <br/><p>${data.message}</p>`
-        // if(typeof window !== "undefined"){
-            window.open(`mailto:${data.email}?subject=${data.subject}&body=${msgBody}`, '_blank')
-        
-    }
-
     return (
         <>
-        
-            <SEOLayout title="Contact | ZiaTechBD" />
-            <main className="contact">
-                {/* breadcrumb */}
-                <section className="bg-light py-4">
-                    <div className="container">
-                        <Link href="/"><a className="text-dark font-bold">Home</a></Link> <span className="text-secondary font-14"> <FaChevronRight /></span> Contact
-                        <h2 className="mt-2 mb-0 font-bold">Contact</h2>
-                    </div>
-                    {/* <nav>
-                        <div className="container">
-                            <ol className="breadcrumb">
-                                <li className="breadcrumb-item"><Link href="/">Home</Link> </li>
-                                <li className="breadcrumb-item active" aria-current="page" >Contact</li>
-                            </ol>
+            <section className="text-center py-5">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-4 mb-4 offset-md-4">
+                            <div>
+                                <img src="/logo01.png" alt="" className="img-fluid" />
+                            </div>
                         </div>
-                    </nav> */}
-                </section>
-                <section className="hero">
+                    </div>
+                </div>
+                <h1 className="text-center text-success font-bold">auto machine & engineering company ltd.</h1>
+                <h2 className="font-italic text-center">--high power industrial machine & steel products manufacturer--</h2>
+            </section>
 
-                </section>
-                <section className="form-section">
-                    <div className="container">
-                        <div className="row content">
-                            <div className="col-md-8 p-5 bg-white">
-                                <h2 className="h1 font-bold mb-5">Send us a Message</h2>
-                                <form onSubmit={handleSubmit(onFormSubmit)} className="contact-form">
-                                    <div className="row">
-                                        <InputField label="Full Name" htmlFor="name">
-                                            <input {...register("name", {required: true})} type="text" placeholder="Your Full Name..." className="form-control" />
-                                        </InputField>
-                                        <InputField label="Email Address" htmlFor="email">
-                                            <input {...register("email", {required: true})} type="email" placeholder="Email Address..." className="form-control" />
-                                        </InputField>
-                                        <InputField label="Phone Number" htmlFor="email">
-                                            <input {...register("phone", {required: true})} type="tel" placeholder="Your phone number..." name="phone" className="form-control" />
-                                        </InputField>
-                                        <InputField label="Subject" htmlFor="subject" >
-                                            <input {...register("subject", {required: true})} type="text" placeholder="The message subject..." name="subject" className="form-control" />
-                                        </InputField>
-                                        <InputField col="12" label="Message" htmlFor="message">
-                                            <textarea {...register("message", {required: true})} name="message" placeholder="Type here..." className="p-4 form-control" rows="5"></textarea>
-                                        </InputField>
-                                        <div className="col-12 mt-4">
-                                            <button type="submit" className="btn btn-danger">SEND MESSAGE</button>
-                                            {/* <a className="btn btn-danger" target="_blank" rel="noopener noreferrer" href="mailto:email@address.com?subject=Hello world&body=Line one%0DLine two">Email me</a> */}
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                            <div className="col-md-4 p-5 text-dark bg-primary contact-sidebar">
-                                <div className="icon-box mb-5">
-                                    <div className="icon">
-                                        <FaEnvelopeOpenText />
-                                    </div>
-                                    <h3>Email Address</h3>
-                                    <a href="mailto:ziatechbd@gmail.com" target="_blank" rel="noopener noreferrer">ziatechbd@gmail.com</a>
-                                    {/* <a href="mailto:mahmud@prottoy.com.bd" target="_blank" rel="noopener noreferrer">mahmud@prottoy.com.bd</a> */}
-                                </div>
-                                <div className="icon-box mb-5">
-                                    <div className="icon">
-                                        <FaMapMarkerAlt />
-                                    </div>
-                                    <h3>Office Address</h3>
-                                    <p>Corporate Office & Show Room-1: HR Plaza, 43/2/1, Janapath Mur, Saidabad, Dhaka-1100.</p>
-                                </div>
-                                <div className="icon-box mb-5">
-                                    <div className="icon">
-                                        <FaPhoneAlt />
-                                    </div>
-                                    <h3>Phone Number</h3>
-                                    <a href="tel:+01912152784" target="_blank" rel="noopener noreferrer">Main office: 01912152784</a>
-                                    <a href="tel:+01768963858" target="_blank" rel="noopener noreferrer">Support: 01768963858</a>
-                                </div>
-                            </div>
+            <section className="py-5">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-8 offset-md-2">
+                            <h3 className="text-center mb-4 font-bold"><u>Corporate Office &amp; Main Show Room</u></h3>
+
+                            <p>MR Plaza, 2nd Floor, 25/1/C, Janapath Mur (East side of Baitul Mamur Mosque), Sayedabad, Dhaka-1100, Bangladesh.</p>
+                            <h4><strong>Hot Line:</strong></h4>
+                            <p><strong>Telephone</strong>: +88-02-7553243, Fax: +88-02-7553253,</p>
+                            <p><strong>Cell</strong>: +88-01912152784, +88-01962415709, +88-01768963858.</p>
+                            <p><strong>e-mail</strong>: ziaziddy@gmail.com. , ziatechbd@gmail.com,</p>
+                            <p><strong>website</strong>: www.ziatechbd.com.</p>
                         </div>
                     </div>
-                </section>
-            </main>
+                    <div className="row mt-5">
+                        <div className="col-md-2 mb-4 text-center offset-md-3">
+                            <h5 className="font-bold"><u> Factory - 1</u></h5>
+                            <p>Sayedabad <br />Dhaka-1100. </p>
+                        </div>
+                        <div className="col-md-2 mb-4 text-center">
+                            <h5 className="font-bold"><u> Factory - 2</u></h5>
+                            <p>Jatrabary, <br />Dhaka-1100. </p>
+                        </div>
+                        <div className="col-md-2 mb-4 text-center">
+                            <h5 className="font-bold"><u> Factory - 3</u></h5>
+                            <p>Rayerbag, <br />Dhaka. </p>
+                        </div>
+                    </div>
+                    <div className="row mt-5">
+                        <div className="col-md-2 mb-4 text-center offset-md-2">
+                            <h5 className="font-bold"><u> India - Office</u></h5>
+                            <p>Mahamayatala, Garia Main Road, Garia, <br/> Kolkata - 700 084, <br />West Bengal, India. </p>
+                        </div>
+                        <div className="col-md-2 mb-4 text-center ">
+                            <h5 className="font-bold"><u> China - Office</u></h5>
+                            <p>Zhangjiagang City, <br/> Jiangsu Province,<br />China </p>
+                        </div>
+                        <div className="col-md-2 mb-4 text-center ">
+                            <h5 className="font-bold"><u> Nepal - Office</u></h5>
+                            <p>Thamel, <br />Kathmandu, Nepal </p>
+                        </div>
+                        <div className="col-md-2 mb-4 text-center ">
+                            <h5 className="font-bold"><u> Myanmar - Office</u></h5>
+                            <p>Lanmadaw Township, <br />Yangon, Myanmar. </p>
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </section>
         </>
     );
 };
 
 export default contact;
-
-export const InputField = ({ col, label, htmlFor, children }) => {
-    return (
-        <>
-            <div className={`col-md-${col ? col : 6}`} >
-                <div className="form-group">
-                    <label htmlFor={htmlFor}>{label} </label>
-                    {children}
-                </div>
-            </div>
-        </>
-    )
-}
