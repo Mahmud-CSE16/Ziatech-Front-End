@@ -1,7 +1,9 @@
+import SEOLayout from "../components/shared/SEOLayout";
 
 const AimAchievements = () => {
     return (
         <>
+            <SEOLayout title="Aim Achievements | ziatech" />
             <section className="bg-dark py-5 text-white">
                 <h1 className="text-center">Aim & Achievements</h1>
             </section>

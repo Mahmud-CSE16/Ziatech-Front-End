@@ -1,8 +1,10 @@
-import React from 'react';
+import SEOLayout from '../components/shared/SEOLayout';
 
 const contact = () => {
     return (
         <>
+                    <SEOLayout title="Contact| ziatech" />
+
             <section className="text-center py-5">
                 <div className="container">
                     <div className="row">

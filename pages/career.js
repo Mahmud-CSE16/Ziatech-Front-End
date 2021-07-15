@@ -1,7 +1,10 @@
+import SEOLayout from "../components/shared/SEOLayout";
 
 const career = () => {
     return (
         <>
+                    <SEOLayout title="Career Opportunities | ziatech" />
+
             <section className="bg-dark py-5 text-white">
                 <h1 className="text-center">Career Opportunities</h1>
             </section>
