@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <NextNprogress
-        color="#f06e18"
+        color="#0db04b"
       />
       {/* <SiteHeader /> */}
       <SiteNavbar/>

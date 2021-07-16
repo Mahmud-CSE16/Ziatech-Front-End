@@ -742,20 +742,4 @@ export const clientsData = [
         মোঃ নিজাম উদ্দিন  
         `
     },
-    {
-        id: 1,
-        company: ``,
-        owner: ``
-    },
-
 ];
-
-
- 
- 
-
-
-
-
-
-

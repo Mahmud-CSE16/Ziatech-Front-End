@@ -6,20 +6,13 @@ const about = () => {
             <SEOLayout title="About | ziatech" />
             <main className="about">
 
-                <section className="page-hero">
-                    <div className="container text-center text-white">
-                        <div className="row">
-                            <div className="col-md-8 offset-md-2">
-                                <h1>About Us</h1>
-                                {/* <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta libero molestias quos odio, corrupti illo veritatis vel quasi excepturi iste nobis itaque. </p> */}
-                            </div>
-                        </div>
-                    </div>
-                </section>
+            <section className="bg-dark py-5 text-white">
+                <h1 className="text-center">About Us</h1>
+            </section>
                 <section className="pt-0 mission">
                     <div className="container py-4">
                         <div className="row d-flex align-items-center">
-                            <div className="col-md-6">
+                            <div className="col-md-8 offset-md-2">
                                 <h2 className="h1">ziatech</h2>
                                 <p>ziatech auto machine & engineering company ltd. is situated at MR Plaza, 25/1/C, Janapath Mur, Sayedabad,Dhaka-1100, Bangladesh.</p>
                                 <p>We have started our business in 2006 From Bangladesh. We have achieved so much experience within this time by serving our many honorable & valuable clients. We have set up so many industrial machineries or plants in Bangladesh. Now our business & services are expreading widely in abroad, especially in the countries of SAARC.</p>
@@ -36,9 +29,9 @@ const about = () => {
 
 
                             </div>
-                            <div className="col-md-6 text-center">
+                            {/* <div className="col-md-6 text-center">
                                 <img src="/img/products/04.jpeg" alt="" className="img-fluid" />
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </section>

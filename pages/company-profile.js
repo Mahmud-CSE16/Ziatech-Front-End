@@ -34,7 +34,7 @@ const CompanyProfile = () => {
                         </div>
                     </div>
                 </section> */}
-                <section className="py-5 bg-success">
+                <section className="py-5 bg-dark">
                     <h2 className="text-center text-white">
                         OUR COMPANY: BOARD OF DIRECTORS
                     </h2>
@@ -100,7 +100,7 @@ const CompanyProfile = () => {
                                         <strong>Address</strong>
                                     </div>
                                     <div className="col-8">
-                                        <b>:</b> <p> Corporate Office-MR Plaza, 2nd Floor, 25/1/C, Janapathmur, Sayedabad, Dhaka-1100, Bangladesh.</p> <br />
+                                         <p><b>:</b> Corporate Office-MR Plaza, 2nd Floor, 25/1/C, Janapathmur, Sayedabad, Dhaka-1100, Bangladesh.</p> <br />
                                         <p>Phone: +88-02-7553243, Fax: +88-02-7553253,</p>
                                         <p>Cell: +88-01912152784, +88-01962415709, +88-01768963858.</p>
                                         <p>E-mail: ziaziddy@gmail.com. , ziatechbd@gmail.com,</p>
@@ -225,9 +225,9 @@ const CompanyProfile = () => {
                                 </div>
                                 <div className="row mt-5">
                                     <div className="col-12">
-                                        <p>জিয়া জিদ্দী</p>
-                                        <p>চেয়ারম্যান,</p>
-                                        <p>জিয়াটেক অটো মেশিন এন্ড ইঞ্জিনিয়ারিং কোম্পানী লিঃ,</p>
+                                        <p className="font-bold">জিয়া জিদ্দী</p>
+                                        <p className="font-bold">চেয়ারম্যান,</p>
+                                        <p className="font-bold">জিয়াটেক অটো মেশিন এন্ড ইঞ্জিনিয়ারিং কোম্পানী লিঃ,</p>
                                         <p>এম আর প্লাজা, ২৫/১/সি, জনপথ মোড়, সায়েদাবাদ,</p>
                                         <p>ঢাকা-১১০০, বাংলাদেশ।</p>
                                         <p>&nbsp;</p>
