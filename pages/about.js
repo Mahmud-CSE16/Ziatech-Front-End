@@ -14,7 +14,7 @@ const about = () => {
                         <div className="row d-flex align-items-center">
                             <div className="col-md-8 offset-md-2">
                                 <h2 className="h1">ziatech</h2>
-                                <p>ziatech auto machine & engineering company ltd. is situated at MR Plaza, 25/1/C, Janapath Mur, Sayedabad,Dhaka-1100, Bangladesh.</p>
+                                <p>ziatech auto machine & engineering company ltd. is situated at Lily Pond Center, Suite 1,  10th floor, 3 R. K Mission Road, Motijheel,  C/A,  Dhaka- 1203,  Bangladesh.</p>
                                 <p>We have started our business in 2006 From Bangladesh. We have achieved so much experience within this time by serving our many honorable & valuable clients. We have set up so many industrial machineries or plants in Bangladesh. Now our business & services are expreading widely in abroad, especially in the countries of SAARC.</p>
                                 <p className="mt-4">We have a large corporate office, three large machine manufacturing factories in Bangladesh, so many showrooms, dealers & suppliers in home & abroad.</p>
                                 <p>Our company characteristics are &ndash;</p>
@@ -80,8 +80,8 @@ const about = () => {
                                 <p><strong>Chairman &amp; CEO,</strong></p>
                                 <p><strong>ziatech auto machine &amp; engineering company ltd.</strong></p>
                                 <p>&nbsp;</p>
-                                <p>MR Plaza, 25/1/C, Janapath Mur, Sayedabad,</p>
-                                <p>Dhaka-1100, Bangladesh.</p>
+                                <p>Lily Pond Center, Suite 1,  10th floor, 3 R. K Mission Road, Motijheel,  C/A,  </p>
+                                <p>Dhaka- 1203,  Bangladesh.</p>
                             </div>
                         </div>
                     </div>

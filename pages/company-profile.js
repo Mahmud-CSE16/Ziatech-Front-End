@@ -51,7 +51,7 @@ const CompanyProfile = () => {
                         </div>
                     </div>
                 </section>
-                
+
                 <section className="py-5 bg-success">
                     <h2 className="text-center text-white">
                         OUR COMPANY: Profile
@@ -84,7 +84,8 @@ const CompanyProfile = () => {
                                         <strong>Address</strong>
                                     </div>
                                     <div className="col-8">
-                                         <p><b>:</b> Corporate Office-MR Plaza, 2nd Floor, 25/1/C, Janapathmur, Sayedabad, Dhaka-1100, Bangladesh.</p> <br />
+                                        <p className=""><b>: Corporate Office</b> - Lily Pond Center, Suite 1,  10th floor, 3 R. K Mission Road, Motijheel,  C/A,  Dhaka- 1203,  Bangladesh.</p> 
+                                        <p><b>Branch office</b> - HR Plaza, 43/2/1, 1st Floor, Janapath mur, ( Beside of LS CNG Pump), Saidabad Dhaka-1100. +8801912-152784.</p><br />
                                         <p>Phone: +88-02-7553243, Fax: +88-02-7553253,</p>
                                         <p>Cell: +88-01912152784, +88-01962415709, +88-01768963858.</p>
                                         <p>E-mail: ziaziddy@gmail.com. , ziatechbd@gmail.com,</p>
@@ -212,10 +213,9 @@ const CompanyProfile = () => {
                                         <p className="font-bold">জিয়া জিদ্দী</p>
                                         <p className="font-bold">চেয়ারম্যান,</p>
                                         <p className="font-bold">জিয়াটেক অটো মেশিন এন্ড ইঞ্জিনিয়ারিং কোম্পানী লিঃ,</p>
-                                        <p>এম আর প্লাজা, ২৫/১/সি, জনপথ মোড়, সায়েদাবাদ,</p>
-                                        <p>ঢাকা-১১০০, বাংলাদেশ।</p>
+                                        <p>লিলি পণ্ড সেন্টার, সুইট ১, ১০ম ফ্লোর, ৩ আর কে মিশন রোড, মতিঝিল, সি/এ, </p>
+                                        <p>ঢাকা-১২০৩, বাংলাদেশ।</p>
                                         <p>&nbsp;</p>
-                                        <p>ফোনঃ +৮৮-০২-৭৫৫৩২৪৩, ফ্যাক্সঃ +৮৮-০২-৭৫৫৩২৫৩।</p>
                                         <p>সেলঃ +৮৮-০১৯১২১৫২৭৮৪, +৮৮-০১৯৬২৪১৫৭০৯, +৮৮-০১৭৬৮৯৬৩৮৫৮।</p>
                                         <p>ই-মেইলঃ <a href="mailto:ziaziddy@gmail.com">ziaziddy@gmail.com</a> , <a href="mailto:ziatechbd@gmail.com">ziatechbd@gmail.com</a>,</p>
                                         <p>ফেসবুকঃ <a href="http://www.facebook.com/zia.ziddy">www.facebook.com/zia.ziddy</a>.</p>
