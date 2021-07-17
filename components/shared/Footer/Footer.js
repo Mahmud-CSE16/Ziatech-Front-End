@@ -12,6 +12,28 @@ const Footer = () => {
                             {/* <h5 className="text-white font-weight-bold mb-4">Contact info.</h5> */}
                             <img src="/logo01.png" alt="" className="footer-logo mb-3" />
                             <p> <b>ziatech auto machine & engineering company ltd.</b><br /> -industrial machines & steel products manufacturer, importer & exporter-</p>
+                            <div className="mt-3">
+                                {/* <a href="http://fb.com" target="_blank" rel="noopener noreferrer">
+                                    <div className="social-icon-container" >
+                                        <div className="social-icons"><FaFacebookF /></div>
+                                    </div>
+                                </a> */}
+                                <a href="https://www.linkedin.com/company/74720530/admin/" target="_blank" rel="noopener noreferrer">
+                                    <div className="social-icon-container" >
+                                        <div className="social-icons"><FaLinkedinIn /></div>
+                                    </div>
+                                </a>
+                                <a href="mailto:ziatechbd@gmail.com" target="_blank" rel="noopener noreferrer">
+                                    <div className="social-icon-container" >
+                                        <div className="social-icons"><FaEnvelope /></div>
+                                    </div>
+                                </a>
+                                <a href="tel:+8801912152784" target="_blank" rel="noopener noreferrer">
+                                    <div className="social-icon-container" >
+                                        <div className="social-icons"><FaPhoneAlt /></div>
+                                    </div>
+                                </a>
+                            </div>
                             {/* <p> <span className="d-inline-block"><FaEnvelope /> </span>ziatechbd@gmail.com</p> */}
                             {/* <p> <span className="d-inline-block"><FaPhoneAlt /> </span>+8801912152784</p> */}
                             {/* <p> <span className="d-inline-block"><FaCalendar /> </span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum quae maxime provident!</p> */}
@@ -35,29 +57,10 @@ const Footer = () => {
                         </div>
                         <div className="col-md-3 ">
                             <h5 className="text-dark font-weight-bold mb-4">Visit Our Showroom</h5>
-                            <p className="text-dark" >Corporate Office & Show Room-1: HR Plaza, 43/2/1, Janapath Mur, Saidabad, Dhaka-1100.</p>
-                            <div className="mt-4">
-                                {/* <a href="http://fb.com" target="_blank" rel="noopener noreferrer">
-                                    <div className="social-icon-container" >
-                                        <div className="social-icons"><FaFacebookF /></div>
-                                    </div>
-                                </a> */}
-                                <a href="https://www.linkedin.com/company/74720530/admin/" target="_blank" rel="noopener noreferrer">
-                                    <div className="social-icon-container" >
-                                        <div className="social-icons"><FaLinkedinIn /></div>
-                                    </div>
-                                </a>
-                                <a href="mailto:ziatechbd@gmail.com" target="_blank" rel="noopener noreferrer">
-                                    <div className="social-icon-container" >
-                                        <div className="social-icons"><FaEnvelope /></div>
-                                    </div>
-                                </a>
-                                <a href="tel:+8801912152784" target="_blank" rel="noopener noreferrer">
-                                    <div className="social-icon-container" >
-                                        <div className="social-icons"><FaPhoneAlt /></div>
-                                    </div>
-                                </a>
-                            </div>
+                            <p className="mb-0"><strong>Motijheel office: </strong>Lily Pond Center, Suite 1,  10th floor, 3 R. K Mission Road, Motijheel,  C/A,  Dhaka- 1203,  Bangladesh.</p>
+                            <p className="mb-3"><strong>Saidabad office: </strong>HR Plaza, 43/2/1, 1st Floor, Janapath mur, ( Beside of LS CNG Pump), Saidabad Dhaka-1100. +8801912-152784. </p>
+                            {/* <p className="text-dark" >Corporate Office & Show Room-1: HR Plaza, 43/2/1, Janapath Mur, Saidabad, Dhaka-1100.</p> */}
+                           
                         </div>
                     </div>
                 </div>

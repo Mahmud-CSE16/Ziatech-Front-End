@@ -33,7 +33,7 @@ const PackagingPrinting = () => {
                 </section>
                 <LeatherProducts/>
                 <section>
-                    <div className="container">
+                    <div className="container mb-5">
                         <div className="row">
                             <div className="col-md-8 offset-md-2">
                             <img src={img} alt="" className="img-fluid" />
