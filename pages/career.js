@@ -41,10 +41,10 @@ const career = () => {
                                 <span className="px-5 py-3 d-inline-block font-bold">Textile</span>
                             
                             </div>
-                            <p className="mt-5 font-bold">
-                            To join with us send your CV and directly communicate with Executive Director through 
-01716-279470 & <a className="text-success" href="mailto:ziatechbd@gmail.com">ziatechbd@gmail.com</a> .  
-                            </p>
+                            {/* <p className="mt-5 font-bold">
+                            Please send your CV and communicate directly. 
+                            <a className="text-success" href="mailto:ziatechbd@gmail.com">ziatechbd@gmail.com</a> .  
+                            </p> */}
                         </div>
                     </div>
                 </div>

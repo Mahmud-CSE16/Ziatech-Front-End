@@ -72,7 +72,7 @@ const AimAchievements = () => {
 
                             <p>We offer challenging professional opportunity to the persons who can give different lime and focused hand on performance in the field of marketing, chemist, technician, production, IT &amp; Engineering. Vacancies arise from time to time to fulfill the requirements of the company.</p>
 
-                            <p>We offer attractive salaries and benefits in lime with top industrial employers in Bangladesh scope of advancement is strictly performance based. Presently, Chemist, Engineer, Technicians of food, beverage, chemical, cosmetic, plastic, rubber, construction, agriculture, pharmaceutical, herbal, packaging, garments &amp; textile. Several vos of post is ready to fill up. Send your CV and directly communicate with Executive Director- 01719-279470.</p>
+                            <p>We offer attractive salaries and benefits in lime with top industrial employers in Bangladesh scope of advancement is strictly performance based. Presently, Chemist, Engineer, Technicians of food, beverage, chemical, cosmetic, plastic, rubber, construction, agriculture, pharmaceutical, herbal, packaging, garments &amp; textile. Several vos of post is ready to fill up. Please send your CV and communicate directly. </p>
 
                         </div>
                     </div>
