@@ -1,3 +1,4 @@
+import LeatherProducts from "../../components/products/LeatherProducts";
 import SEOLayout from "../../components/shared/SEOLayout";
 
 const PackagingPrinting = () => {
@@ -11,11 +12,11 @@ const PackagingPrinting = () => {
             <section className="bg-success py-5 text-white">
                     <h1 className="text-center" >{title} </h1>
                 </section>
-                <section className="bg-white py-5">
+                <section className="bg-white pt-5">
                     <div className="container">
                         <div className="row">
                             <div className="col-md-8 offset-md-2">
-                                <div className="d-flex mb-5 mt-4 justify-content-between align-items-center">
+                                <div className="d-flex  mt-4 justify-content-between align-items-center">
                                     <div>
                                         <h4>To buy any product call now:</h4>
                                         <a href="tel:+8801912152784" className="">+880 1912 152784</a>
@@ -25,7 +26,17 @@ const PackagingPrinting = () => {
                                     </div>
                                 </div>
                                 {/* image */}
-                                <img src={img} alt="" className="img-fluid" />
+                                
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <LeatherProducts/>
+                <section>
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-md-8 offset-md-2">
+                            <img src={img} alt="" className="img-fluid" />
                             </div>
                         </div>
                     </div>

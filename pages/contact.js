@@ -25,7 +25,8 @@ const contact = () => {
                         <div className="col-md-8 offset-md-2">
                             <h3 className="text-center mb-4 font-bold"><u>Corporate Office &amp; Main Show Room</u></h3>
 
-                            <p>MR Plaza, 2nd Floor, 25/1/C, Janapath Mur (East side of Baitul Mamur Mosque), Sayedabad, Dhaka-1100, Bangladesh.</p>
+                            <p className="mb-0"><strong>Motijheel office: </strong>Lily Pond Center, Suite 1,  10th floor, 3 R. K Mission Road, Motijheel,  C/A,  Dhaka- 1203,  Bangladesh.</p>
+                            <p className="mb-3"><strong>Saidabad office: </strong>HR Plaza, 43/2/1, 1st Floor, Janapath mur, ( Beside of LS CNG Pump), Saidabad Dhaka-1100. +8801912-152784. </p>
                             <h4><strong>Hot Line:</strong></h4>
                             <p><strong>Telephone</strong>: +88-02-7553243, Fax: +88-02-7553253,</p>
                             <p><strong>Cell</strong>: +88-01912152784, +88-01962415709, +88-01768963858.</p>

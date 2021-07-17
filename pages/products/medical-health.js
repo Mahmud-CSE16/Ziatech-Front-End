@@ -1,4 +1,5 @@
 import MedicalHerbal from "../../components/products/MedicalHerbal";
+import MedicineProducts from "../../components/products/MedicineProducts";
 import SEOLayout from "../../components/shared/SEOLayout";
 
 const PackagingPrinting = () => {
@@ -29,6 +30,7 @@ const PackagingPrinting = () => {
                         </div>
                     </div>
                 </section>
+                <MedicineProducts/>
                 {/* <MedicalHerbal/> */}
                 <section className="bg-white py-5">
                     <div className="container">

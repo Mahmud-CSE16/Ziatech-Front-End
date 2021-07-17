@@ -51,23 +51,7 @@ const CompanyProfile = () => {
                         </div>
                     </div>
                 </section>
-                <section className="py-5 bg-success">
-                    <h2 className="text-center text-white">
-                        OUR COMPANY: MAIN OFFICERS PANEL
-                    </h2>
-                </section>
-                <section className="pt-4 pb-4">
-                    <div className="container">
-                        <div className="row mb-5 d-flex align-items-center">
-                            <div className="col-md-3 text-center offset-md-3">
-                                <TeamMemberCard data={nashir} />
-                            </div>
-                            <div className="col-md-3 text-center  ">
-                                <TeamMemberCard data={maidul} />
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                
                 <section className="py-5 bg-success">
                     <h2 className="text-center text-white">
                         OUR COMPANY: Profile
