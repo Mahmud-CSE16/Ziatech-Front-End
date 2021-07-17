@@ -6,7 +6,7 @@ const about = () => {
             <SEOLayout title="About | ziatech" />
             <main className="about">
 
-            <section className="bg-dark py-5 text-white">
+            <section className="bg-success py-5 text-white">
                 <h1 className="text-center">About Us</h1>
             </section>
                 <section className="pt-0 mission">

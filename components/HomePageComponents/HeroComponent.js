@@ -15,7 +15,7 @@ const HeroComponent = () => {
 
                 <Carousel slide={false} pause="" interval={2500} controls={false} indicators={false} >
                     <Carousel.Item>
-                        <div style={{ background: `url(${bg1})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }} className="d-flex align-items-center justify-content-center carousel-img">
+                        <div className="carousel-one d-flex align-items-center justify-content-center carousel-img">
                             <div className="text-center text-md-right">
                                 {/* <h1 className="display-2 mb-0"><i>ziatech</i> </h1>
                                 <p className="font-22"><i>an world famous brand of machinery</i> &nbsp;</p> */}
@@ -23,7 +23,7 @@ const HeroComponent = () => {
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <div style={{ background: `url(${bg2})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }} className="d-flex align-items-center justify-content-center carousel-img">
+                        <div className="carousel-two d-flex align-items-center justify-content-center carousel-img">
                             <div className="text-center text-md-right">
                                 {/* <h1 className="display-2 mb-0"><i>ziatech</i> </h1>
                                 <p className="font-22"><i>an world famous brand of machinery</i> &nbsp;</p> */}
@@ -31,7 +31,7 @@ const HeroComponent = () => {
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <div style={{ background: `url(${bg3})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }} className="d-flex align-items-center justify-content-center carousel-img">
+                        <div className="carousel-three d-flex align-items-center justify-content-center carousel-img">
                             <div className="text-center text-md-right">
                                 {/* <h1 className="display-2 mb-0"><i>ziatech</i> </h1>
                                 <p className="font-22"><i>an world famous brand of machinery</i> &nbsp;</p> */}

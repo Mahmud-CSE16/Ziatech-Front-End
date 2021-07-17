@@ -6,7 +6,7 @@ const DealersShowrooms = () => {
         <>
                     <SEOLayout title="Dealers and Showrooms | ziatech" />
 
-            <section className="bg-dark py-5 text-white">
+            <section className="bg-success py-5 text-white">
                 <h1 className="text-center">Dealers & Showrooms</h1>
             </section>
 

@@ -5,15 +5,9 @@ const services = () => {
         <>
             <SEOLayout title="About | ziatech" />
             <main className="services">
-                <section className="page-hero">
-                    <div className="container text-center text-white">
-                        <div className="row">
-                            <div className="col-md-8 offset-md-2">
-                                <h1>Our Services</h1>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+            <section className="bg-success py-5 text-white">
+                <h1 className="text-center">Our Services</h1>
+            </section>
                 <section className="py-5">
                     <div className="container">
                         <div className="row">

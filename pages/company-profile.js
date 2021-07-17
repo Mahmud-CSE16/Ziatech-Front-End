@@ -34,7 +34,7 @@ const CompanyProfile = () => {
                         </div>
                     </div>
                 </section> */}
-                <section className="py-5 bg-dark">
+                <section className="py-5 bg-success">
                     <h2 className="text-center text-white">
                         OUR COMPANY: BOARD OF DIRECTORS
                     </h2>

@@ -83,6 +83,11 @@ export const linksPartTwo =[
         text: `Services`,
         link: `services`
     },
+    {
+        id: 4,
+        text: `Career`,
+        link: `career`
+    }
 ]
 
 export const linksPartThree =[

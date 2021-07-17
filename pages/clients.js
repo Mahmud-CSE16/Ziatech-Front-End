@@ -6,7 +6,7 @@ const clients = () => {
     return (
         <>
             <SEOLayout title="Honorable Clients | ziatech" />
-            <section className="bg-dark py-5 text-white">
+            <section className="bg-success py-5 text-white">
                 <h1 className="text-center">Honorable Clients</h1>
             </section>
             <section className="py-5">

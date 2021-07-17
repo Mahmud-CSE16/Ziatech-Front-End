@@ -5,7 +5,7 @@ const career = () => {
         <>
                     <SEOLayout title="Career Opportunities | ziatech" />
 
-            <section className="bg-dark py-5 text-white">
+            <section className="bg-success py-5 text-white">
                 <h1 className="text-center">Career Opportunities</h1>
             </section>
             <section className="py-5">
