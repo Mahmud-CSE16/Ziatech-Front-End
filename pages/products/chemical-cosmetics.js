@@ -2,21 +2,14 @@ import ChemicalCosmetics from "../../components/products/ChemicalCosmetics";
 import SEOLayout from "../../components/shared/SEOLayout";
 
 const PackagingPrinting = () => {
-    const title= `Chemical & Cosmetic Machine`;
+    const title = `Chemical & Cosmetic Machine`;
     const img = "/products/03.jpeg"
     return (
         <>
-        <SEOLayout title={title+ " | ziatech"} />
+            <SEOLayout title={title + " | ziatech"} />
             <main>
-                <section className="page-hero">
-                    <div className="container text-center text-white">
-                        <div className="row">
-                            <div className="col-md-8 offset-md-2">
-                                <h1>{title} </h1>
-                                {/* <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta libero molestias quos odio, corrupti illo veritatis vel quasi excepturi iste nobis itaque. </p> */}
-                            </div>
-                        </div>
-                    </div>
+                <section className="bg-success py-5 text-white">
+                    <h1 className="text-center" >{title} </h1>
                 </section>
                 <section className="bg-white pt-4">
                     <div className="container">
@@ -35,7 +28,7 @@ const PackagingPrinting = () => {
                         </div>
                     </div>
                 </section>
-                <ChemicalCosmetics/>
+                <ChemicalCosmetics />
                 <section className="bg-white">
                     <div className="container">
                         <div className="row">

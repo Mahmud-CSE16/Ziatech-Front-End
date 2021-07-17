@@ -9,15 +9,8 @@ const PackagingPrinting = () => {
             <SEOLayout title={title + " | ziatech"} />
 
             <main>
-                <section className="page-hero">
-                    <div className="container text-center text-white">
-                        <div className="row">
-                            <div className="col-md-8 offset-md-2">
-                                <h1>{title} </h1>
-                                {/* <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta libero molestias quos odio, corrupti illo veritatis vel quasi excepturi iste nobis itaque. </p> */}
-                            </div>
-                        </div>
-                    </div>
+                <section className="bg-success py-5 text-white">
+                    <h1 className="text-center" >{title} </h1>
                 </section>
                 <section className="bg-white pt-4">
                     <div className="container">
@@ -36,12 +29,12 @@ const PackagingPrinting = () => {
                         </div>
                     </div>
                 </section>
-                <HardwareOthers/>
+                <HardwareOthers />
                 <section className="bg-white py-5">
                     <div className="container">
                         <div className="row">
                             <div className="col-md-8 offset-md-2">
-                        
+
                                 <img src={img} alt="" className="img-fluid" />
                             </div>
                         </div>
