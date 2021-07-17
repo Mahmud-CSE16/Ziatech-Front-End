@@ -76,7 +76,7 @@ const HeroComponent = () => {
                                             <GiGears />
                                         </div>
                                         <div className="text pl-4">
-                                            <p className="title">All Machineries</p>
+                                            <p className="title">All Machines</p>
                                             <p className="description">Imported & Manufactured</p>
                                         </div>
                                     </div>
