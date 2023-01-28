@@ -138,7 +138,8 @@ const CompanyProfile = () => {
                                         <strong>Board of Directors</strong>
                                     </div>
                                     <div className="col-8">
-                                        <b>:</b> <ol>
+                                        <b>:</b> 
+                                        <ol>
                                             <li>Lt Cln Khondakar Amjad Hossain (Rtd), Executive Director.</li>
                                             <li>Shahnaz Parvin, Admin Director.</li>
                                             <li>Shahidul Islam Kabir, Marketing Director</li>
@@ -217,9 +218,9 @@ const CompanyProfile = () => {
                                         <p>ঢাকা-১২০৩, বাংলাদেশ।</p>
                                         <p>&nbsp;</p>
                                         <p>সেলঃ +৮৮-০১৯১২১৫২৭৮৪, +৮৮-০১৯৬২৪১৫৭০৯, +৮৮-০১৭৬৮৯৬৩৮৫৮।</p>
-                                        <p>ই-মেইলঃ <a href="mailto:ziaziddy@gmail.com">ziaziddy@gmail.com</a> , <a href="mailto:ziatechbd@gmail.com">ziatechbd@gmail.com</a>,</p>
-                                        <p>ফেসবুকঃ <a href="http://www.facebook.com/zia.ziddy">www.facebook.com/zia.ziddy</a>.</p>
-                                        <p>ওয়েবসাইটঃ <a href="http://www.ziatechbd.com">www.ziatechbd.com</a></p>
+                                        <div>ই-মেইলঃ <a href="mailto:ziaziddy@gmail.com">ziaziddy@gmail.com</a> , <a href="mailto:ziatechbd@gmail.com">ziatechbd@gmail.com</a>,</div>
+                                        <div>ফেসবুকঃ <a href="http://www.facebook.com/zia.ziddy">www.facebook.com/zia.ziddy</a>.</div>
+                                        <div>ওয়েবসাইটঃ <a href="http://www.ziatechbd.com">www.ziatechbd.com</a></div>
                                     </div>
                                 </div>
                                 {/* 3 */}
