@@ -7,8 +7,7 @@ const SEOLayout = ({ title, description, img, url }) => {
     const siteDescription = `-industrial machines & steel products manufacturer, importer & exporter-`
     const siteUrl = "https://ziatechbd.com"
     return (
-        <>
-            <Head>
+        <Head>
                 <link rel="icon" href={"/favicon.ico"} />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="theme-color" content="#032646" />
@@ -25,7 +24,6 @@ const SEOLayout = ({ title, description, img, url }) => {
                 {/* <link rel="manifest" href="%PUBLIC_URL%/manifest.json" /> */}
                 <title>{title? title: siteTitle}</title>
             </Head>
-        </>
     );
 };
 

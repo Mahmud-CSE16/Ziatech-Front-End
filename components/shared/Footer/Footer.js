@@ -57,7 +57,6 @@ const Footer = () => {
                         </div>
                         <div className="col-md-3 ">
                             <h5 className="text-dark font-weight-bold mb-4">Visit Our Showroom</h5>
-                            <p className="mb-0"><strong>Motijheel office: </strong>Lily Pond Center, Suite 1,  10th floor, 3 R. K Mission Road, Motijheel,  C/A,  Dhaka- 1203,  Bangladesh.</p>
                             <p className="mb-3"><strong>Saidabad office: </strong>HR Plaza, 43/2/1, 1st Floor, Janapath mur, ( Beside of LS CNG Pump), Saidabad Dhaka-1100. +8801912-152784. </p>
                             {/* <p className="text-dark" >Corporate Office & Show Room-1: HR Plaza, 43/2/1, Janapath Mur, Saidabad, Dhaka-1100.</p> */}
                            

@@ -80,8 +80,7 @@ const about = () => {
                                 <p><strong>Chairman &amp; CEO,</strong></p>
                                 <p><strong>ziatech auto machine &amp; engineering company ltd.</strong></p>
                                 <p>&nbsp;</p>
-                                <p>Lily Pond Center, Suite 1,  10th floor, 3 R. K Mission Road, Motijheel,  C/A,  </p>
-                                <p>Dhaka- 1203,  Bangladesh.</p>
+                                <p>HR Plaza, 43/2/1, 1st Floor, Janapath mur, ( Beside of LS CNG Pump), Saidabad Dhaka-1100. +8801912-152784.</p>
                             </div>
                         </div>
                     </div>

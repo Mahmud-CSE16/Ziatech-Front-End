@@ -84,8 +84,7 @@ const CompanyProfile = () => {
                                         <strong>Address</strong>
                                     </div>
                                     <div className="col-8">
-                                        <p className=""><b>: Corporate Office</b> - Lily Pond Center, Suite 1,  10th floor, 3 R. K Mission Road, Motijheel,  C/A,  Dhaka- 1203,  Bangladesh.</p> 
-                                        <p><b>Branch office</b> - HR Plaza, 43/2/1, 1st Floor, Janapath mur, ( Beside of LS CNG Pump), Saidabad Dhaka-1100. +8801912-152784.</p><br />
+                                        <p className=""><b>: Corporate Office</b> - HR Plaza, 43/2/1, 1st Floor, Janapath mur, ( Beside of LS CNG Pump), Saidabad Dhaka-1100. +8801912-152784.</p><br />
                                         <p>Phone: +88-02-7553243, Fax: +88-02-7553253,</p>
                                         <p>Cell: +88-01912152784, +88-01962415709, +88-01768963858.</p>
                                         <p>E-mail: ziaziddy@gmail.com. , ziatechbd@gmail.com,</p>
